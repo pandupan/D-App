@@ -4,6 +4,7 @@ import MediumHeading from '@/components/pages/Product/MediumHeading'
 import MediumWithButton from '@/components/pages/Product/MediumWithButton'
 import MediumWithIcon from '@/components/pages/Product/MediumWithIcon'
 import MediumWithImage from '@/components/pages/Product/MediumWithImage'
+import PricingPlan from '@/components/pages/Product/PricingPlan'
 import ProductAll from '@/components/pages/Product/ProductAll'
 import ShortHeading from '@/components/pages/Product/ShortHeading'
 
@@ -18,7 +19,7 @@ const page = () => {
       <LongHeading/>
       <ImagePlaceholder/>
       <ProductAll/>
-
+      <PricingPlan/>
       <MediumWithImage/>
       <MediumWithButton/>
     </div>
