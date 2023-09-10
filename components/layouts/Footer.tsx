@@ -53,7 +53,7 @@ const Footer = () => {
 
       </div>
     </div>
-      <div className='border-t-[2px] border-black mt-20 container w-[185vh]'>
+      <div className='border-t-[2px] border-black mt-20 container w-full'>
       </div>
       <div className='flex justify-between container px-12 mt-8 mb-28'>
         <h3 className='text-sm'>
