@@ -1,6 +1,7 @@
 import HeroSection from '@/components/pages/Home/HeroSection'
 import ImagePlaceholder from '@/components/pages/Home/ImagePlaceholder'
 import JoinDonateReceive from '@/components/pages/Home/JoinDonateReceive'
+import SupportLocal from '@/components/pages/Home/SupportLocal'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection/>
       <ImagePlaceholder/>
       <JoinDonateReceive/>
+      <SupportLocal/>
     </>
   )
 }
