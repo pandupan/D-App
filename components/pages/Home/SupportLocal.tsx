@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Image from "next/image";
 import {BiSolidCube} from 'react-icons/bi'
@@ -30,9 +31,30 @@ const SupportLocal = () => {
           alt="Placeholder"
           fill={true}
         />
+=======
+import ButtonOutline from "@/components/core/buttons/ButtonOutline"
+import ButtonPrimary from "@/components/core/buttons/ButtonPrimary"
+
+
+const SupportLocal = () => {
+  return (
+    <div className="w-full flex items-center justify-between px-[84px] min-h-[50vh] lg:-mt-60">
+      <div className="space-y-8">
+        <h1 className="text-4xl font-bold tracking-normal">Support Local Initiatives with Donations</h1>
+        <p>Join our platform and start donating to campaigns in your area</p>
+      </div>
+      <div className="flex gap-4 justify-center items-center">
+        <ButtonPrimary title="Sign Up"/>
+        <ButtonOutline title="Learn More"/>
+
+>>>>>>> cc6a39bab3d0b51a0e843625af17e1867dd08cb5
       </div>
     </div>
   )
 }
 
+<<<<<<< HEAD
 export default SupportLocal
+=======
+export default SupportLocal
+>>>>>>> cc6a39bab3d0b51a0e843625af17e1867dd08cb5
