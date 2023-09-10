@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import Image from "next/image";
 import { AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import { IoBasketballOutline } from "react-icons/io5";

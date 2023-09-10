@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import Image from "next/image";
 import { AiOutlineLeft } from "react-icons/ai";
 import {PiLinkSimpleBold} from "react-icons/pi"
