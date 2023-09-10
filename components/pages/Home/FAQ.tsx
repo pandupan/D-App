@@ -10,7 +10,7 @@ import {
 
 const FAQ = () => {
   return (
-    <div className="w-full h-[1074px] px-[84px]">
+    <div className="w-full h-full px-[84px] mb-16">
       <div className="space-y-10">
         <h1 className="text-5xl font-bold tracking-normal">FAQs</h1>
         <p>Find answers to common questions about the donation process.</p>
@@ -25,13 +25,13 @@ const FAQ = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger className="font-bold">Can I change my donation amount??</AccordionTrigger>
+            <AccordionTrigger className="font-bold">Can I change my donation amount?</AccordionTrigger>
             <AccordionContent>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa magnam nihil recusandae hic officia maiores, quidem maxime sit iste odit.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger className="font-bold">What if my transaction fails??</AccordionTrigger>
+            <AccordionTrigger className="font-bold">What if my transaction fails?</AccordionTrigger>
             <AccordionContent>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad blanditiis nisi inventore dicta repudiandae, suscipit praesentium quidem aspernatur minus tenetur?
             </AccordionContent>
