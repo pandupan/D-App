@@ -6,7 +6,7 @@ import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
 
 const SignUpVer = () => {
   return(
-    <div className="flex justify-between container my-28">
+    <div className="flex justify-between container mb-48">
       <div className="flex flex-col gap-6 w-[616px] h-[640px] justify-center">
         <h1 className="font-black text-4xl ">
         Sign Up and Verify Your Zip Code for a Seamless Experience

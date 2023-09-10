@@ -4,15 +4,16 @@ import {BiSolidCube} from 'react-icons/bi'
 import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
 
-const CZipCode = () => {
+const JoinWaitlist = () => {
   return(
-    <div className="flex justify-between container my-48">
-      <div className="flex flex-col gap-6 w-[616px] h-[640px] justify-center">
-        <h1 className="font-black text-4xl ">
-        Choose a Zip Code and Discover Micro-Crowdfunding Campaigns
+    <div className="flex justify-between container my-28">
+      <div className="flex flex-col gap-7 w-[616px] h-[640px] justify-center">
+      <div className="font-bold">Empower</div>
+        <h1 className="font-black text-5xl ">
+        Join the Waitlist and Make a Difference
         </h1>
         <p>
-        Explore a variety of micro-crowdfunding campaigns available in your chosen zip code, with donation amounts of $1, $5, and $10 in USDC stablecoin.
+        Donate to your chosen campaign and join the waitlist for a chance to receive a USDC award. Every contribution counts!
         </p>
         <div className="flex flex-row gap-4 mt-2">
           <div className="flex flex-col gap-4">
@@ -22,7 +23,7 @@ const CZipCode = () => {
                 Step 1:
               </h2>
               <p className="w-[296px]">
-              Select a Zip Code and Browse Micro-Crowdfunding Campaigns
+              Choose a Campaign and Make a Donation
               </p>
             </div>
           </div>
@@ -33,10 +34,19 @@ const CZipCode = () => {
                 Step 2:
               </h2>
               <p className="w-[296px]">
-              Choose a Campaign and Make a Micro-Donation
+              Join the Waitlist for a Chance to Receive an Award
               </p>
             </div>
           </div>
+        </div>
+        <div className="flex flex-row gap-3">
+            <ButtonOutline title = {"Donate"}/>        
+            <div className="flex my-auto">
+              Join
+            </div>
+            <div className="flex mt-[10px]">
+            <BiSolidCube size = {22}/>
+            </div>
         </div>
       </div>
       <div className=" relative w-[656px] h-[640px]">
@@ -50,4 +60,4 @@ const CZipCode = () => {
   )
 }
 
-export default CZipCode
+export default JoinWaitlist
