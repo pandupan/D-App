@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 import {BiSolidCube} from "react-icons/bi"
