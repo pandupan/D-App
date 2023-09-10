@@ -1,4 +1,5 @@
 import CZipCode from '@/components/pages/HowItWorks/CZipCode'
+import EarnNFTcom from '@/components/pages/HowItWorks/EarnNFTcom'
 import EmpoyerCom from '@/components/pages/HowItWorks/EmpoyerCom'
 import JoinWaitlist from '@/components/pages/HowItWorks/JoinWaitlist'
 import SignUpVer from '@/components/pages/HowItWorks/SignUpVer'
@@ -11,6 +12,7 @@ const page = () => {
       <SignUpVer/>
       <CZipCode/>
       <JoinWaitlist/>
+      <EarnNFTcom/>
     </div>
   )
 }
