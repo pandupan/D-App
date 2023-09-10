@@ -42,7 +42,7 @@ const EarnUnique = () => {
       </div>
       <div className=" relative w-[650px] h-[650px]">
         <Image 
-          src="/images/placeHolder_2.png"
+          src="/images/PlaceHolder_2.png"
           alt="Placeholder"
           fill={true}
         />

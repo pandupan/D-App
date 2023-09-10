@@ -19,7 +19,7 @@ const OurTeam = () => {
           <div>
             <div className=" relative w-[405px] h-[395px]">
               <Image
-                src="/images/placeHolder_2.png"
+                src="/images/PlaceHolder_2.png"
                 alt="Placeholder"
                 fill={true}
               />
@@ -41,7 +41,7 @@ const OurTeam = () => {
           <div>
             <div className=" relative w-[405px] h-[395px]">
               <Image
-                src="/images/placeHolder_2.png"
+                src="/images/PlaceHolder_2.png"
                 alt="Placeholder"
                 fill={true}
               />
@@ -62,7 +62,7 @@ const OurTeam = () => {
           <div>
             <div className=" relative w-[405px] h-[395px]">
               <Image
-                src="/images/placeHolder_2.png"
+                src="/images/PlaceHolder_2.png"
                 alt="Placeholder"
                 fill={true}
               />
@@ -83,7 +83,7 @@ const OurTeam = () => {
           <div>
             <div className=" relative w-[405px] h-[395px]">
               <Image
-                src="/images/placeHolder_2.png"
+                src="/images/PlaceHolder_2.png"
                 alt="Placeholder"
                 fill={true}
               />
@@ -104,7 +104,7 @@ const OurTeam = () => {
           <div>
             <div className=" relative w-[405px] h-[395px]">
               <Image
-                src="/images/placeHolder_2.png"
+                src="/images/PlaceHolder_2.png"
                 alt="Placeholder"
                 fill={true}
               />
@@ -125,7 +125,7 @@ const OurTeam = () => {
           <div>
             <div className=" relative w-[405px] h-[395px]">
               <Image
-                src="/images/placeHolder_2.png"
+                src="/images/PlaceHolder_2.png"
                 alt="Placeholder"
                 fill={true}
               />

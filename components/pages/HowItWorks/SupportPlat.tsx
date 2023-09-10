@@ -9,7 +9,7 @@ const SupportPlat = () => {
     <div className="flex justify-between container my-48">
       <div className=" relative w-[616px] h-[640px]">
         <Image 
-          src="/images/placeHolder_2.png"
+          src="/images/PlaceHolder_2.png"
           alt="Placeholder"
           fill={true}
         />

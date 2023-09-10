@@ -51,7 +51,7 @@ const JoinWaitlist = () => {
       </div>
       <div className=" relative w-[656px] h-[640px]">
         <Image 
-          src="/images/placeHolder_2.png"
+          src="/images/PlaceHolder_2.png"
           alt="Placeholder"
           fill={true}
         />

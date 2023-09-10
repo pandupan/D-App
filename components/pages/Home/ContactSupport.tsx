@@ -40,7 +40,7 @@ const ContactSupport = () => {
 
         <div className="relative w-[800px] h-[550px]">
           <Image 
-            src="/images/placeHolder_2.png"
+            src="/images/PlaceHolder_2.png"
             alt="Placeholder"
             fill={true}
           />
