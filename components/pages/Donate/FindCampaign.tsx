@@ -1,10 +1,10 @@
 import Image from "next/image";
-import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
+
 
 
 const FindCampaign = () => {
   return(
-    <div className="flex justify-between container mt-48 mb-28">
+    <div className="flex justify-between container mt-48 mb-48">
       <div className="flex flex-col gap-6 w-[616px] h-[250px] justify-center place-self-center">
         <h1 className="font-black text-5xl ">
         Find a Campaign Near You
