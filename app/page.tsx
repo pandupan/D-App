@@ -1,7 +1,9 @@
 import EarnUnique from '@/components/pages/Home/EarnUnique'
+import GetExclusive from '@/components/pages/Home/GetExclusive'
 import HeroSection from '@/components/pages/Home/HeroSection'
 import ImagePlaceholder from '@/components/pages/Home/ImagePlaceholder'
 import JoinDonateReceive from '@/components/pages/Home/JoinDonateReceive'
+import LocalCom from '@/components/pages/Home/LocalCom'
 import MicroCrowdfunding from '@/components/pages/Home/MicroCrowdfunding'
 import SupportLocal from '@/components/pages/Home/SupportLocal'
 
@@ -12,6 +14,8 @@ export default function Home() {
       <ImagePlaceholder/>
       <MicroCrowdfunding/>
       <EarnUnique/>
+      <GetExclusive/>
+      <LocalCom/>
       <JoinDonateReceive/>
       <SupportLocal/>
     </>
