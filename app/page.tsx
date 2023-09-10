@@ -7,6 +7,7 @@ import LocalCom from '@/components/pages/Home/LocalCom'
 import StayInformed from '@/components/pages/Home/StayInformed'
 import MicroCrowdfunding from '@/components/pages/Home/MicroCrowdfunding'
 import SupportLocal from '@/components/pages/Home/SupportLocal'
+import FAQ from '@/components/pages/Home/FAQ'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <JoinDonateReceive/>
       <SupportLocal/>
       <StayInformed/>
+      <FAQ/>
     </>
   )
 }
