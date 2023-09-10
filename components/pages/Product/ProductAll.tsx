@@ -142,11 +142,6 @@ const ProductAll = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-4">
-          <h1 className="font-bold text-3xl">Join Our Team!</h1>
-          <p>We&apos;re looking for talented individuals to join us.</p>
-          <button className="outline outline-offset-2 outline-1 w-[768px] h-[48px]"> Explore Opportunities</button>
-          </div>
         </div>
         <div>
         </div>

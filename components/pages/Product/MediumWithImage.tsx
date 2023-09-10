@@ -1,16 +1,14 @@
 import Image from "next/image";
 
-
-
-const FindCampaign = () => {
+const MediumWithImage = () => {
   return(
     <div className="flex justify-between container mt-48 mb-48">
       <div className="flex flex-col gap-6 w-[616px] h-[250px] justify-center place-self-center">
         <h1 className="font-black text-5xl ">
-        Find a Campaign Near You
+        Medium length heading goes here
         </h1>
         <p className="text-lg w-[616px]">
-        Support local initiatives by donating to a micro crowdfunded campaign in your zip code.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
         </p>
         <div className="flex flex-row gap-4">
         <div className="w-[394px]">
@@ -21,7 +19,7 @@ const FindCampaign = () => {
             </button>
         </div>
         <p className="text-sm">
-        By clicking Donate, you agree to our Terms and Conditions.
+        By clicking Sign Up you&apos;re confirming that you agree with our <span className="underline">Terms and Conditions.</span>
         </p>
       </div>
       <div className=" relative w-[616px] h-[400px]">
@@ -35,4 +33,4 @@ const FindCampaign = () => {
   )
 }
 
-export default FindCampaign
+export default MediumWithImage
