@@ -12,11 +12,11 @@ const page = () => {
     <div>
       <Empowering/>
       <RevoMicro/>
-      {/* <OurTeam/>
+      <OurTeam/>
       <RecognizedIndustry/>
       <TrustedCompanies/>
       <JoinCommunity/>
-      <SubsNewsletter/> */}
+      <SubsNewsletter/>
     </div>
   )
 }

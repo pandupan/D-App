@@ -19,7 +19,7 @@ const RevoMicro = () => {
             </div>
         </div>
       </div>
-      <div className="m-auto relative mt-8 lg:mt-0 aspect-square sm:w-[456px] sm:h-[440px] lg:w-[656px] lg:h-[640px] ">
+      <div className="relative mt-8 lg:mt-0 aspect-square lg:m-auto sm:w-[456px] sm:h-[440px] lg:w-[656px] lg:h-[640px] ">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"
