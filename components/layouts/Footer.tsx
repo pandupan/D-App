@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname } from "next/footer";
+import { usePathname } from "next/navigation";
 import Footer1 from "./footer/Footer1";
 import Footer2 from "./footer/Footer2";
 import Footer3 from "./footer/Footer3";
@@ -33,7 +33,6 @@ const Footer = () => {
       {foot5.includes(pathname) && ( <Footer5/> )}
 
       {foot6.includes(pathname) && ( <Footer6/> )}
-
 
     </div>
   )

@@ -10,7 +10,7 @@ const HightlightingTopZip = () => {
     <div className="sm:container flex-col sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-12 mb-28">
       <div className="flex flex-row gap-2">
         <div className="my-1 text-black">
-          <AiOutlineLeft Size={10} />
+          <AiOutlineLeft size={10} />
         </div>
         <p> Latest Post </p>
       </div>
