@@ -6,7 +6,7 @@ import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
 
 const EmpoyerCom = () => {
   return(
-    <div className="flex sm:flex-row flex-col justify-between sm:container my-28 px-4">
+    <div className="flex sm:flex-row flex-col justify-between sm:container mb-28 px-4">
       <div className="flex flex-col sm:gap-10 gap-6 sm:w-[616px] sm:h-[640px] mt-32 w-full">
         <h1 className="font-black sm:text-6xl text-4xl">
         Empower Your Community with F-N-F Dapp
