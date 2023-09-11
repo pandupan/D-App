@@ -4,7 +4,7 @@ import ButtonPrimary from "@/components/core/buttons/ButtonPrimary"
 
 const SupportLocal = () => {
   return (
-    <div className="w-full flex sm:flex-row flex-col sm:items-center sm:justify-between sm:px-[84px] px-4 min-h-[50vh] lg:-mt-[140px]">
+    <div className="w-full flex sm:flex-row flex-col sm:items-center sm:justify-between sm:px-[84px] px-4 min-h-[50vh] lg:-mt-28">
       <div className="sm:space-y-8 space-y-4">
         <h1 className="sm:text-4xl text-3xl font-bold tracking-normal">Support Local Initiatives with Donations</h1>
         <p className="sm:text-base text-sm">Join our platform and start donating to campaigns in your area</p>

@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input"
 
 const StayInformed = () => {
   return (
-    <div className="w-full flex flex-col sm:px-[84px] min-h-[50vh] mt-[70px] px-4 sm:my-0 my-28">
+    <div className="w-full flex flex-col sm:px-[84px] min-h-[50vh] mt-[70px] px-4 sm:my-28 my-28">
       <div className="sm:space-y-8 space-y-6">        
         <h1 className="sm:text-5xl text-3xl font-bold tracking-normal">Stay Informed with Our Newsletter</h1>
         <p className="sm:text-base text-sm">Subscribe to stay updated on the latest news, promotions, and campaigns.</p>

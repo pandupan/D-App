@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const ContactSupport = () => {
   return (
-    <div className="flex flex-col justify-center w-full h-full sm:px-[84px] sm:my-[220px] sm:mt-0 mt-28 sm:mb-0 mb-16  px-4">
+    <div className="flex flex-col justify-center w-full h-full sm:px-[84px] sm:mt-48 sm:mb-48 mt-28 mb-16  px-4">
       <div className="space-y-4">
         <p className="font-bold">Connect</p>
         <h1 className="font-bold sm:text-4xl text-3xl">Contact Support</h1>
