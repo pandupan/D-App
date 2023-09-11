@@ -20,7 +20,7 @@ const Navbar = () => {
     <div>
 
       {navbar1.includes(pathname) && (
-        <div className="w-full h-[72px] flex justify-between items-center px-[64px] border-b-[1px] border-black">
+        <div className="hidden w-full h-[72px] md:flex justify-between items-center px-[64px] border-b-[1px] border-black">
           <div className="font-bold text-2xl">
             <h2>Logo</h2>
           </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
       )}
 
       {navbar2.includes(pathname) && (
-        <div className="w-full h-[72px] flex justify-between items-center px-[64px] border-b-[1px] border-black">
+        <div className="hidden w-full h-[72px] md:flex justify-between items-center px-[64px] border-b-[1px] border-black">
           <div className="font-bold text-2xl">
             <h2>Logo</h2>
           </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
       )}
 
       {navbar3.includes(pathname) && (
-        <div className="w-full h-[72px] flex justify-between items-center px-[64px] border-b-[1px] border-black">
+        <div className="hidden w-full h-[72px] md:flex justify-between items-center px-[64px] border-b-[1px] border-black">
           <div className="font-bold text-2xl">
             <h2>Logo</h2>
           </div>
@@ -107,7 +107,7 @@ const Navbar = () => {
       )}
 
       {navbar4.includes(pathname) && (
-        <div className="w-full h-[72px] flex justify-between items-center px-[64px] border-b-[1px] border-black">
+        <div className="hidden w-full h-[72px] md:flex justify-between items-center px-[64px] border-b-[1px] border-black">
           <div className="font-bold text-2xl">
             <h2>Logo</h2>
           </div>
@@ -136,7 +136,7 @@ const Navbar = () => {
       )}
 
       {navbar5.includes(pathname) && (
-        <div className="w-full h-[72px] flex justify-between items-center px-[64px] border-b-[1px] border-black">
+        <div className="hidden w-full h-[72px] md:flex justify-between items-center px-[64px] border-b-[1px] border-black">
           <div className="font-bold text-2xl">
             <h2>Logo</h2>
           </div>
@@ -165,7 +165,7 @@ const Navbar = () => {
       )}
 
       {navbar6.includes(pathname) && (
-        <div className="w-full h-[72px] flex justify-between items-center px-[64px] border-b-[1px] border-black">
+        <div className="hidden w-full h-[72px] md:flex justify-between items-center px-[64px] border-b-[1px] border-black">
           <div className="font-bold text-2xl">
             <h2>Logo</h2>
           </div>
@@ -194,7 +194,7 @@ const Navbar = () => {
       )}
 
       {navbar7.includes(pathname) && (
-        <div className="w-full h-[72px] flex justify-between items-center px-[64px] border-b-[1px] border-black">
+        <div className="hidden w-full h-[72px] md:flex justify-between items-center px-[64px] border-b-[1px] border-black">
           <div className="font-bold text-2xl">
             <h2>Logo</h2>
           </div>

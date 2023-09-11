@@ -1,3 +1,4 @@
+import Empowering from '@/components/pages/MeetTeam/Empowering'
 import JoinCommunity from '@/components/pages/MeetTeam/JoinCommunity'
 import OurTeam from '@/components/pages/MeetTeam/OurTeam'
 import RecognizedIndustry from '@/components/pages/MeetTeam/RecognizedIndustry'
@@ -9,12 +10,13 @@ import React from 'react'
 const page = () => {
   return (
     <div>
+      <Empowering/>
       <RevoMicro/>
-      <OurTeam/>
+      {/* <OurTeam/>
       <RecognizedIndustry/>
       <TrustedCompanies/>
       <JoinCommunity/>
-      <SubsNewsletter/>
+      <SubsNewsletter/> */}
     </div>
   )
 }
