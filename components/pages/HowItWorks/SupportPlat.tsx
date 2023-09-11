@@ -1,43 +1,40 @@
  
 import Image from "next/image";
-import {BiSolidCube} from 'react-icons/bi'
-import ButtonOutline from "@/components/core/buttons/ButtonOutline";
-import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
 
 const SupportPlat = () => {
   return(
-    <div className="flex justify-between container my-48">
-      <div className=" relative w-[616px] h-[640px]">
+    <div className="flex sm:flex-row flex-col-reverse sm:justify-between sm:container sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-28">
+      <div className="relative aspect-square sm:w-[616px] sm:h-[640px] sm:mt-0 mt-[40px]">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"
           fill={true}
         />
       </div>
-      <div className="flex flex-col gap-7 w-[616px] h-[640px] justify-center">
-        <h1 className="font-black text-4xl ">
+      <div className="flex flex-col gap-7 sm:w-[616px] sm:h-[640px] justify-center">
+        <h1 className="font-black sm:text-4xl text-3xl sm:w-full w-[300px]">
         Support the Platform with F-N-F Stablecoin and Get F-N-F Merchandise
         </h1>
-        <p>
+        <p className="sm:text-lg text-sm">
         Purchase F-N-F merchandise using F-N-F stablecoin and show your support for the platform.
         </p>
-        <div className="flex flex-row gap-4 mt-2">
+        <div className="flex sm:flex-row flex-col gap-4 mt-2">
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-4">
-              <h2 className="font-bold text-lg">
+              <h2 className="font-bold sm:text-lg text-md">
               Shop Now
               </h2>
-              <p className="w-[296px]">
+              <p className="w-[296px] sm:text-base text-sm">
               Explore our collection of F-N-F merchandise and make a difference.
               </p>
             </div>
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-4">
-              <h2 className="font-bold text-lg">
+              <h2 className="font-bold sm:text-lg text-md">
               Support Us
               </h2>
-              <p className="w-[296px]">
+              <p className="w-[296px] sm:text-base text-sm">
               Join the movement and show your support for the F-N-F Dapp.
               </p>
             </div>

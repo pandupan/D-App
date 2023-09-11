@@ -6,38 +6,38 @@ import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
 
 const EarnNFTcom = () => {
   return(
-    <div className="flex justify-between container my-48">
-      <div className="flex flex-col gap-7 w-[616px] h-[640px] justify-center">
-      <div className="font-bold">Empower</div>
-        <h1 className="font-black text-5xl ">
+    <div className="flex sm:flex-row flex-col sm:justify-between sm:container sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-28 mb-28">
+      <div className="flex flex-col gap-7 sm:w-[616px] sm:h-[640px] w-full justify-center">
+      <div className="font-medium">Empower</div>
+        <h1 className="font-black sm:text-5xl text-3xl sm:w-full w-[250px]">
         Earn F-N-F NFTs and Contribute to the Community
         </h1>
-        <p>
+        <p className="sm:text-base text-sm">
         By reaching donation milestones and contributing to the community, you can earn exclusive F-N-F NFTs that showcase your support.
         </p>
-        <div className="flex flex-row gap-4 mt-2">
+        <div className="flex sm:flex-row flex-col gap-4 mt-2">
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-4">
-              <h2 className="font-bold text-lg">
+              <h2 className="font-bold sm:text-lg text-md">
               Reach Milestones
               </h2>
-              <p className="w-[296px]">
+              <p className="w-[296px] sm:text-based text-sm">
               Donate and contribute to the community to unlock unique F-N-F NFTs.
               </p>
             </div>
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-4">
-              <h2 className="font-bold text-lg">
+              <h2 className="font-bold sm:text-lg text-md">
               Show Support
               </h2>
-              <p className="w-[296px]">
+              <p className="w-[296px] sm:text-based text-sm">
               Display your commitment to giving back with exclusive F-N-F NFTs.
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-3 mt-3">
+        <div className="flex flex-row gap-3 sm:mt-3 mt-2">
             <ButtonOutline title = {"Learn More"}/>        
             <div className="flex my-auto">
               Sign Up
@@ -47,7 +47,7 @@ const EarnNFTcom = () => {
             </div>
         </div>
       </div>
-      <div className=" relative w-[656px] h-[640px]">
+      <div className=" relative aspect-square sm:w-[656px] sm:h-[640px] sm:mt-0 mt-[40px]">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"
