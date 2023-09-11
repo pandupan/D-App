@@ -5,7 +5,7 @@ import {BiSolidCube} from "react-icons/bi"
 const DonateLocal = () => {
   return (
     <div className="flex flex-col justify-center sm:container sm:px-0 px-4  sm:mt-28 sm:mb-28 mt-14 mb-14">
-      <div className="flex flex-col gap-6 text-center">
+      <div className="flex flex-col gap-6 items-center text-center">
         <div className="font-semibold sm:text-base text-sm">Empower</div>
         <h1 className="sm:text-4xl text-3xl font-bold sm:w-[650px]">
           Donate to Local Crowdfunding Campaigns Today
