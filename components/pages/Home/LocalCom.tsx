@@ -5,27 +5,27 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const LocalCom = () => {
   return (
-    <div className="flex justify-between container my-48">
-      <div className="flex flex-col gap-7 w-[600px] mt-12">
-        <div className="font-bold">Empower</div>
-        <h1 className="font-black text-5xl ">
+    <div className="flex sm:flex-row flex-col sm:justify-between sm:px-0 px-4 sm:container sm:my-48 my-28">
+      <div className="flex flex-col sm:gap-7 gap-4 sm:w-[600px] w-full mt-12">
+        <div className="font-medium">Empower</div>
+        <h1 className="font-black sm:text-5xl text-3xl sm:w-full w-[250px]">
           Support Local Communities with F-N-F Dapp
         </h1>
-        <p className="w-[580px] text-lg">
+        <p className="sm:w-[580px] w-full sm:text-lg text-sm">
           Experience the power of anonymity and decentralization while making a
           positive impact in your local community.
         </p>
-        <div className="flex flex-row gap-10">
+        <div className="flex sm:flex-row flex-col gap-4">
           <div>
-            <h2 className="font-bold text-lg my-2">Anonymity</h2>
-            <p className="w-[250px]">
+            <h2 className="font-bold sm:text-lg text-base my-2">Anonymity</h2>
+            <p className="sm:w-[250px] sm:text-base text-sm">
               Donate and receive funds anonymously, empowering local communities
               across the USA.
             </p>
           </div>
           <div>
-            <h2 className="font-bold text-lg my-2">Decentralization</h2>
-            <p className="w-[250px]">
+            <h2 className="font-bold sm:text-lg text-base my-2">Decentralization</h2>
+            <p className="sm:w-[250px] w-[280px] sm:text-base text-sm">
               Join a decentralized micro-crowdfunding platform to support
               initiatives in your zip code.
             </p>
@@ -39,7 +39,7 @@ const LocalCom = () => {
           </div>
         </div>
       </div>
-      <div className=" relative w-[650px] h-[650px]">
+      <div className=" relative sm:w-[650px] sm:h-[650px] w-full h-[300px] sm:mt-0 mt-[40px]">
         <Image src="/images/PlaceHolder_2.png" alt="Placeholder" fill={true} />
       </div>
     </div>

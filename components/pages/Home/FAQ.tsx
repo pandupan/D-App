@@ -10,14 +10,14 @@ import {
 
 const FAQ = () => {
   return (
-    <div className="w-full h-full px-[84px] mb-16">
-      <div className="space-y-10">
-        <h1 className="text-5xl font-bold tracking-normal">FAQs</h1>
-        <p>Find answers to common questions about the donation process.</p>
+    <div className="w-full h-full sm:px-[84px] sm:mb-16 px-4">
+      <div className="sm:space-y-10 space-y-6">
+        <h1 className="sm:text-5xl text-3xl font-bold tracking-normal">FAQs</h1>
+        <p className="sm:text-base text-sm">Find answers to common questions about the donation process.</p>
       </div>
 
       <div className="mt-8">
-        <Accordion type="single" collapsible className="w-full">
+        <Accordion type="single" collapsible className="w-full sm:text-base text-sm">
           <AccordionItem value="item-1">
             <AccordionTrigger className="font-bold">How do I donate?</AccordionTrigger>
             <AccordionContent>
@@ -25,7 +25,7 @@ const FAQ = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger className="font-bold">Can I change my donation amount?</AccordionTrigger>
+            <AccordionTrigger className="font-bold text-left">Can I change my donation amount?</AccordionTrigger>
             <AccordionContent>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa magnam nihil recusandae hic officia maiores, quidem maxime sit iste odit.
             </AccordionContent>
@@ -51,8 +51,8 @@ const FAQ = () => {
         </Accordion>
       </div>
 
-      <div className="space-y-6 mt-[160px]">
-        <h2 className="text-3xl font-bold">Still have questions?</h2>
+      <div className="space-y-6 sm:mt-[160px] mt-[40px]">
+        <h2 className="sm:text-3xl text-2xl font-bold">Still have questions?</h2>
         <p>Contact us for further assistance</p>
         <ButtonOutline title="Contact"/>
       </div>
