@@ -8,7 +8,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { BsChevronDown } from 'react-icons/bs'
 
 
-const Nav6 = () => {
+const Nav5 = () => {
   const [nav, setNav] = useState(false)
 
   return (
@@ -17,13 +17,13 @@ const Nav6 = () => {
         <Link href="/" className="font-bold text-2xl">
           <h2>Logo</h2>
         </Link>
-        <Link href="/" className="flex justify-center items-center gap-4">
+        <div className="flex justify-center items-center gap-4">
           <div className="flex justify-center items-center">
-            <p>Home</p>
+            <p><Link href="/">Home</Link></p>
           </div>
-          <Link href="/donate" className="flex justify-center items-center">
-            <p>Donate</p>
-          </Link>
+          <div className="flex justify-center items-center">
+            <p><Link href="/donate">Donate</Link></p>
+          </div>
           <Link href="/works" className="flex justify-center items-center">
             <p>About Us</p>
           </Link>
@@ -37,7 +37,7 @@ const Nav6 = () => {
           <div className="flex justify-center items-center">
             <ButtonPrimary title="Login"/>
           </div>
-        </Link>
+        </div>
       </div>
 
       <div className="fixed flex justify-between items-center w-full h-[72px] md:hidden border-b border-black px-[25px] bg-white z-[90] ">
@@ -77,4 +77,4 @@ const Nav6 = () => {
   )
 }
 
-export default Nav6 
+export default Nav5 

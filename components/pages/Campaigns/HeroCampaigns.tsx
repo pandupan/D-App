@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const HeroCampaigns = () => {
   return (
-    <div className="flex justify-center w-full sm:h-[343px] h-[250px]">
+    <div className="flex justify-center w-full sm:h-[343px] h-[250px] mt-16 sm:mt-0">
       <div className="relative w-full sm:h-[343px] h-[250px]">
         <Image
           src="/images/placeHolder_3.png"
