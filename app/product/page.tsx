@@ -1,6 +1,8 @@
 import ImagePlaceholder from '@/components/pages/Home/ImagePlaceholder'
 import LongHeading from '@/components/pages/Product/LongHeading'
 import MediumHeading from '@/components/pages/Product/MediumHeading'
+import MediumWButton from '@/components/pages/Product/MediumWButton'
+import MediumWIconButton from '@/components/pages/Product/MediumWIconButton'
 import MediumWithButton from '@/components/pages/Product/MediumWithButton'
 import MediumWithIcon from '@/components/pages/Product/MediumWithIcon'
 import MediumWithImage from '@/components/pages/Product/MediumWithImage'
@@ -14,10 +16,10 @@ const page = () => {
       <ShortHeading/>
       <MediumHeading/>
       <MediumWithIcon/>
+      <MediumWButton/>
       <MediumHeading/>
-      <MediumWithIcon/>
+      <MediumWIconButton/>
       <LongHeading/>
-      <ImagePlaceholder/>
       <ProductAll/>
       <PricingPlan/>
       <MediumWithImage/>
