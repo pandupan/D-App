@@ -4,21 +4,22 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const FindCampaignN = () => {
   return (
-    <div className="container my-48">
-      <div className="flex flex-col gap-6">
-        <p className="font-bold">Browse</p>
-        <h1 className="font-bold text-5xl">Find Campaigns Near You</h1>
-        <p>Discover crowdfunding campaigns in your local area.</p>
-        <div className="flex flex-row gap-20">
-          <div className="flex flex-col gap-3">
-            <div className="relative w-[632px] h-[300px] mt-[40px]">
+    <div className="sm:container sm:mt-48 sm:mb-48 mt-48 mb-28 sm:px-0 px-4">
+      <div className="flex flex-col sm:gap-6 gap-4">
+        <p className="font-medium sm:text-base text-sm">Browse</p>
+        <h1 className="font-bold sm:text-5xl text-3xl">Find Campaigns Near You</h1>
+        <p className="sm:text-base text-sm">Discover crowdfunding campaigns in your local area.</p>
+        <div className="flex sm:flex-row flex-col sm:gap-20 gap-4">
+
+          <div className="flex flex-col gap-4">
+            <div className="relative sm:w-[632px] sm:h-[300px] w-full h-[221px] sm:mt-[40px] mt-[20px]">
               <Image src="/images/placeHolder_1.png" alt="Icon" fill={true} />
             </div>
-            <p className="text-sm font-semibold">All</p>
-            <h1 className="font-black text-2xl">
+            <p className="sm:text-sm text-xs font-medium">All</p>
+            <h1 className="font-black sm:text-2xl text-lg">
               Support Local Initiatives with Your Donations
             </h1>
-            <p>
+            <p className="sm:text-base text-sm">
               Explore campaigns that are making a difference in your community.
             </p>
 
@@ -30,21 +31,23 @@ const FindCampaignN = () => {
                   fill={true}
                 />
               </div>
-              <div className="flex flex-col">
-                <h3 className="text-sm font-bold">John Doe</h3>
-                <p>Jan 11, 2022 • 5 min read</p>
+              <div className="flex flex-col place-self-center gap-1">
+                <h3 className="sm:text-sm text-xs font-bold">John Doe</h3>
+                <p className="sm:text-base text-xs">Jan 11, 2022 • 5 min read</p>
               </div>
             </div>
           </div>
+
           <div className="flex flex-col gap-4">
-            <div className="relative w-[632px] h-[300px] mt-[40px]">
+
+            <div className="relative sm:w-[632px] sm:h-[300px] w-full h-[221px] mt-[40px]">
               <Image src="/images/placeHolder_1.png" alt="Icon" fill={true} />
             </div>
-            <p className="text-sm font-semibold">All</p>
-            <h1 className="font-black text-2xl">
+            <p className="sm:text-sm text-xs font-medium">All</p>
+            <h1 className="font-black sm:text-2xl text-lg">
               Support Local Initiatives with Your Donations
             </h1>
-            <p>
+            <p className="sm:text-base text-sm">
               Explore campaigns that are making a difference in your community.
             </p>
 
@@ -56,11 +59,12 @@ const FindCampaignN = () => {
                   fill={true}
                 />
               </div>
-              <div className="flex flex-col">
-                <h3 className="text-sm font-bold">Jone Smith</h3>
-                <p>Jan 11, 2022 • 5 min read</p>
+              <div className="flex flex-col place-self-center gap-1">
+                <h3 className="sm:text-sm text-xs font-bold">Jone Smith</h3>
+                <p className="sm:text-base text-xs">Jan 11, 2022 • 5 min read</p>
               </div>
             </div>
+
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import {BiLogoFacebook} from "react-icons/bi"
 
 const HightlightingTopZip = () => {
   return (
-    <div className="container flex-col my-48">
+    <div className="sm:container flex-col sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-12 mb-28">
       <div className="flex flex-row gap-2">
         <div className="my-1 text-black">
           <AiOutlineLeft Size={10} />
@@ -18,27 +18,27 @@ const HightlightingTopZip = () => {
         <div className="bg-[#f4f4f4] w-auto h-auto px-2 py-1 ">Inspiration</div>
         <div className="flex items-center">5 Minutes Read</div>
       </div>
-      <h1 className="font-black text-5xl mt-[25px]">
+      <h1 className="font-black sm:text-5xl text-3xl mt-[25px]">
         Highlighting Top Zip Code Campaigns to Inspire Contribution
       </h1>
-      <div className="relative w-[1312px] h-[600px] mt-[80px]">
+      <div className="relative sm:w-[1312px] w-full sm:h-[600px] h-[168px] sm:mt-[80px] mt-10">
         <Image src="/images/placeHolder_1.png" alt="Icon" fill={true} />
       </div>
       
-      <div className="flex flex-row justify-between mt-[25px]">
+      <div className="flex sm:flex-row flex-col sm:justify-between mt-[25px] w-[1312px]">
 
         <div className="flex flex-row gap-10">
           <div className="flex flex-col">
-            <div>Written by</div>
-            <div className="font-bold">John Doe</div>
+            <div className="sm:text-base text-sm w-[72px]">Written by</div>
+            <div className="font-medium">John Doe</div>
           </div>
           <div className="flex flex-col">
-            <div>Published on</div>
-            <div className="font-bold">22nd January 2021</div>
+            <div className="sm:text-base text-sm sm:w-full w-[93px]">Published on</div>
+            <div className="font-medium sm:w-full w-[139px]">22nd January 2021</div>
           </div>
         </div>
 
-        <div className="flex flex-row gap-4 mr-6">
+        <div className="flex flex-row gap-4 sm:mt-0 mt-4">
           <div className="flex justify-center pt-1 border bg-[#f4f4f4] h-[32px] w-[32px] rounded-full">
           <PiLinkSimpleBold size = {24}/>
           </div>
