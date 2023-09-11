@@ -6,7 +6,7 @@ import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
 
 const EmpoweringCom = () => {
   return(
-    <div className="flex sm:flex-row flex-col-reverse sm:justify-between sm:container sm:px-0 px-4 sm:mt-28 sm:mb-28 mt-12 mb-12">
+    <div className="flex sm:flex-row flex-col-reverse sm:justify-between sm:px-[84px] px-4 sm:mt-28 sm:mb-28 mt-12 mb-12">
       <div className=" relative aspect-square sm:w-[616px] sm:h-[640px] sm:mt-0 mt-[50px]">
         <Image 
           src="/images/PlaceHolder_2.png"

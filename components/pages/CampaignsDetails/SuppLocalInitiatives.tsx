@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const SuppLocalInitiatives = () => {
   return(
-    <div className="flex sm:flex-row flex-col sm:justify-between sm:container sm:px-0 px-4 sm:mt-48 sm:mb-28 mt-24 mb-28">
+    <div className="flex sm:flex-row flex-col sm:justify-between sm:px-[84px] px-4 sm:mt-48 sm:mb-28 mt-24 mb-28">
       <div className="flex flex-col gap-6 sm:w-[616px] sm:h-[640px] justify-center">
         <h1 className="font-black sm:text-4xl text-3xl">
         Supporting Local Initiatives: How Your Donations Will Make a Difference
