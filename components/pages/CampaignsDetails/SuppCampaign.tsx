@@ -2,10 +2,10 @@
 
 const SuppCampaign = () => {
   return (
-    <div className="container my-48">
-      <div className="flex flex-col gap-8">
-      <h1 className="text-5xl font-black ">Support this Campaign Today!</h1>
-      <p className="w-[680px]">
+    <div className="sm:container sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-24 mb-24">
+      <div className="flex flex-col sm:gap-8 gap-5">
+      <h1 className="sm:text-5xl text-3xl font-black">Support this Campaign Today!</h1>
+      <p className="sm:w-[680px] sm:text-base text-sm w-[300px]">
       Choose from the available USDC amounts ($1, $5, or $10) and join the corresponding waitlist.
       </p>
       <div className="flex flex-row gap-4">

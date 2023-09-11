@@ -6,39 +6,39 @@ import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
 
 const EmpoweringCom = () => {
   return(
-    <div className="flex justify-between container my-28">
-      <div className=" relative w-[616px] h-[640px]">
+    <div className="flex sm:flex-row flex-col-reverse sm:justify-between sm:container sm:px-0 px-4 sm:mt-28 sm:mb-28 mt-12 mb-12">
+      <div className=" relative aspect-square sm:w-[616px] sm:h-[640px] sm:mt-0 mt-[50px]">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"
           fill={true}
         />
       </div>
-      <div className="flex flex-col gap-7 w-[616px] h-[640px] justify-center">
-        <h1 className="font-black text-4xl w-[520px]">
+      <div className="flex flex-col gap-7 sm:w-[616px] sm:h-[640px] justify-center">
+        <h1 className="font-black sm:text-4xl text-2xl sm:w-[520px] w-[250px]">
         Empowering Communities Through Micro-Crowdfunding
         </h1>
-        <p className="w-[520px]">
-        Discover the impact of our micro-crowdfunding campaign and join us in making a difference..
+        <p className="sm:w-[520px] sm:text-base text-sm w-[300px]">
+        Discover the impact of our micro-crowdfunding campaign and join us in making a difference.
         </p>
-        <div className="flex flex-row gap-4 mt-2">
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-4">
-              <h2 className="font-bold text-5xl">
+        <div className="flex sm:flex-row flex-col gap-4 mt-2">
+          <div className="flex flex-col sm:gap-4">
+            <div className="flex flex-col sm:gap-4 gap-2">
+              <h2 className="sm:font-bold font-black sm:text-5xl text-3xl">
               50%
               </h2>
-              <p className="w-[296px]">
-              Support Local Initiatives and Create Lasting Change
+              <p className="w-[296px] sm:text-base text-sm">
+              Support Local Initiatives and Create Lasting Change.
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-4">
-              <h2 className="font-bold text-5xl">
+          <div className="flex flex-col sm:gap-4">
+            <div className="flex flex-col sm:gap-4 gap-2">
+              <h2 className="sm:font-bold font-black sm:text-5xl text-3xl">
               50%
               </h2>
-              <p className="w-[296px]">
-              Make a Meaningful Impact in Your Community Today
+              <p className="w-[296px] sm:text-base text-sm">
+              Make a Meaningful Impact in Your Community Today.
               </p>
             </div>
           </div>
