@@ -4,7 +4,7 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const FindCampaignN = () => {
   return (
-    <div className="sm:container sm:mt-48 sm:mb-48 mt-32 mb-28 sm:px-0 px-4">
+    <div className="xl:container xl:mt-48 xl:mb-48 mt-32 mb-28 xl:px-0 px-4">
       <div className="flex flex-col sm:gap-6 gap-4">
         <p className="font-medium sm:text-base text-sm">Browse</p>
         <h1 className="font-bold sm:text-5xl text-3xl">Find Campaigns Near You</h1>
@@ -12,7 +12,7 @@ const FindCampaignN = () => {
         <div className="flex sm:flex-row flex-col sm:gap-20 gap-4">
 
           <div className="flex flex-col gap-4">
-            <div className="relative sm:w-[632px] sm:h-[300px] w-full h-[221px] sm:mt-[40px] mt-[20px]">
+            <div className="relative xl:w-[632px] xl:h-[300px] w-full h-[221px] xl:mt-[40px] mt-[20px]">
               <Image src="/images/placeHolder_1.png" alt="Icon" fill={true} />
             </div>
             <p className="sm:text-sm text-xs font-medium">All</p>
@@ -40,7 +40,7 @@ const FindCampaignN = () => {
 
           <div className="flex flex-col gap-4">
 
-            <div className="relative sm:w-[632px] sm:h-[300px] w-full h-[221px] mt-[40px]">
+            <div className="relative xl:w-[632px] xl:h-[300px] w-full h-[221px] xl:mt-[40px] mt-[20px]">
               <Image src="/images/placeHolder_1.png" alt="Icon" fill={true} />
             </div>
             <p className="sm:text-sm text-xs font-medium">All</p>

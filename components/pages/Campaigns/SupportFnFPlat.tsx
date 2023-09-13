@@ -5,7 +5,7 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const SupportFnFPlat= () => {
   return(
-    <div className="flex sm:flex-row flex-col sm:justify-between sm:container sm:px-0 px-4 sm:mt-48 sm:mb-48 mb-28">
+    <div className="flex xl:flex-row flex-col xl:justify-between xl:container xl:px-0 px-4 xl:mt-48 xl:mb-48 mb-28">
       <div className="flex flex-col sm:gap-10 gap-6 sm:w-[600px] mt-32">
         <BiSolidCube size = {70}/>
         <h1 className="font-black sm:text-5xl text-3xl ">
@@ -24,7 +24,7 @@ const SupportFnFPlat= () => {
             </div>
         </div>
       </div>
-      <div className=" relative aspect-square sm:w-[616px] sm:h-[640px] sm:mt-0 mt-[40px]">
+      <div className=" relative aspect-square xl:w-[616px] xl:h-[640px] xl:mt-0 mt-[40px]">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"

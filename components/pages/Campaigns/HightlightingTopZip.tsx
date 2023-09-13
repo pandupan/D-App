@@ -7,7 +7,7 @@ import {BiLogoFacebook} from "react-icons/bi"
 
 const HightlightingTopZip = () => {
   return (
-    <div className="sm:container flex-col sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-12 mb-28">
+    <div className="xl:container flex-col xl:px-0 px-4 xl:mt-48 xl:mb-48 mt-12 mb-28">
       <div className="flex flex-row gap-2">
         <div className="my-1 text-black">
           <AiOutlineLeft size={10} />
@@ -21,11 +21,11 @@ const HightlightingTopZip = () => {
       <h1 className="font-black sm:text-5xl text-3xl mt-[25px]">
         Highlighting Top Zip Code Campaigns to Inspire Contribution
       </h1>
-      <div className="relative sm:w-[1312px] w-full sm:h-[600px] h-[168px] sm:mt-[80px] mt-10">
+      <div className="relative xl:w-[1312px] w-full xl:h-[600px] sm:h-auto h-[168px] xl:mt-[80px] mt-10">
         <Image src="/images/placeHolder_1.png" alt="Icon" fill={true} />
       </div>
       
-      <div className="flex sm:flex-row flex-col sm:justify-between mt-[25px] w-[1312px]">
+      <div className="flex xl:flex-row flex-col xl:justify-between mt-[25px] w-[1312px]">
 
         <div className="flex flex-row gap-10">
           <div className="flex flex-col">
