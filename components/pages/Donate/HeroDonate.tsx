@@ -11,7 +11,7 @@ const HeroDonate = () => {
                   fill={true}
                 />
               </div>
-              <div className=' my-[300px] sm:container px-8 absolute flex flex-col text-white gap-8'>
+              <div className=' my-[300px] xl:left-8 sm:container px-8 absolute flex flex-col text-white gap-8'>
                 <h1 className='sm:text-6xl text-4xl font-black sm:w-[560px]'>Donate to Local Zip Code Campaigns</h1>
                 <p className='sm:w-[560px] sm:text-base text-sm'>Make a difference in your community by donating to micro-crowdfunded campaigns in your local zip code.</p>
                 <div className='flex flex-row gap-4'>
