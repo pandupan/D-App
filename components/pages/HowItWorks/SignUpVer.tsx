@@ -5,7 +5,7 @@ import Image from "next/image";
 const SignUpVer = () => {
   return(
     <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
-      <div className="flex flex-col gap-6 sm:w-[616px] sm:h-[640px] w-[300px] justify-center">
+      <div className="flex flex-col gap-6 sm:w-[616px] sm:py-20 lg:h-[640px] w-[300px] justify-center">
         <h1 className="font-black sm:text-4xl text-3xl sm:w-full w-[300px]">
         Sign Up and Verify Your Zip Code for a Seamless Experience
         </h1>
