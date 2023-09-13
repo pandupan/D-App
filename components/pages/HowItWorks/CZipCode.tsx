@@ -5,7 +5,7 @@ import {BiSolidCube} from 'react-icons/bi'
 
 const CZipCode = () => {
   return(
-    <div className="flex sm:flex-row flex-col sm:justify-between sm:container px-4 sm:px-0 sm:mt-48 sm:mb-48 mt-28 mb-48">
+    <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
       <div className="flex flex-col gap-6 sm:w-[616px] sm:h-[640px] w-full justify-center">
         <h1 className="font-black sm:text-4xl text-2xl w-[270px] sm:w-full">
         Choose a Zip Code and Discover Micro-Crowdfunding Campaigns

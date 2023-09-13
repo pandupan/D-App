@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const SupportPlat = () => {
   return(
-    <div className="flex sm:flex-row flex-col-reverse sm:justify-between sm:container sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-28">
-      <div className="relative aspect-square sm:w-[616px] sm:h-[640px] sm:mt-0 mt-[40px]">
+    <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
+      <div className="relative aspect-square md:w-[616px] md:h-[640px] lg:mt-[20px] mt-[40px]">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"
