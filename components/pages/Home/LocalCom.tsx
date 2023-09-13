@@ -39,7 +39,7 @@ const LocalCom = () => {
           </div>
         </div>
       </div>
-      <div className=" relative aspect-square sm:w-[650px] sm:h-[650px] w-full h-[300px] sm:mt-0 mt-[40px]">
+      <div className=" relative aspect-square sm:w-[650px] sm:h-[650px] w-full h-[300px] sm:mt-8 mt-[40px]">
         <Image src="/images/PlaceHolder_2.png" alt="Placeholder" fill={true} />
       </div>
     </div>
