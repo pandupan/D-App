@@ -5,7 +5,7 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const FeaturedMerch = () => {
   return(
-    <div className="flex sm:flex-row flex-col sm:justify-between sm:container sm:px-4 px-4 sm:mt-48 sm:mb-48 mb-16">
+    <div className="flex md:flex-row flex-col sm:justify-between sm:container sm:px-8 px-4 sm:mt-48 sm:mb-48 mb-16">
       <div className="flex flex-col gap-10 sm:w-[600px] mt-32">
         <BiSolidCube size = {70}/>
         <h1 className="font-black sm:text-5xl text-3xl">
@@ -24,7 +24,7 @@ const FeaturedMerch = () => {
             </div>
         </div>
       </div>
-      <div className=" relative aspect-square sm:w-[656px] sm:h-[640px] sm:mt-0 mt-[40px]">
+      <div className=" relative aspect-square md:w-[656px] md:h-[640px] lg:mt-0 md:mt-[20px] mt-[40px]">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"
