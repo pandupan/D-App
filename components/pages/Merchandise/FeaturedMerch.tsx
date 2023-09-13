@@ -5,13 +5,13 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const FeaturedMerch = () => {
   return(
-    <div className="flex md:flex-row flex-col sm:justify-between sm:container sm:px-8 px-4 sm:mt-48 sm:mb-48 mb-16">
-      <div className="flex flex-col gap-10 sm:w-[600px] mt-32">
+    <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 sm:gap-2 xl:gap-0 sm:mt-48 sm:mb-48 mb-16">
+      <div className="flex flex-col gap-10 sm:w-full lg:w-[320px] xl:w-[600px] mt-32">
         <BiSolidCube size = {70}/>
         <h1 className="font-black sm:text-5xl text-3xl">
         Shop Our Featured F-N-F Merchandise Collection
         </h1>
-        <p className="sm:w-[550px] sm:text-base text-sm">
+        <p className="sm:w-full lg:w-[320px] xl:w-[550px] sm:text-base text-sm">
         Discover our exclusive collection of F-N-F merchandise, including t-shirts, hats, coffee mugs, candles, hand soap, and home decor. Show your support for a great cause while looking stylish.
         </p>
         <div className="flex flex-row gap-3">
