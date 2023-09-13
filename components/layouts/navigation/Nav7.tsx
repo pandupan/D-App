@@ -59,7 +59,7 @@ const Nav7 = () => {
           <ul className="space-y-4 text-base my-6">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/works">About Us</Link></li>
-            <li><Link href="/merch">Contact</Link></li>
+            <li><Link href="/teams">Contact</Link></li>
             <li>
               <Link href="/product" className="flex justify-between items-center">
                 Products

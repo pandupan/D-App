@@ -24,7 +24,7 @@ const Nav5 = () => {
           <div className="flex justify-center items-center">
             <p><Link href="/donate">Donate</Link></p>
           </div>
-          <Link href="/works" className="flex justify-center items-center">
+          <Link href="/details" className="flex justify-center items-center">
             <p>About Us</p>
           </Link>
           <Link href="/campaigns" className="flex justify-center items-center gap-2">

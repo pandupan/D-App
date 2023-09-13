@@ -18,7 +18,7 @@ const Nav2 = () => {
           <h2>Logo</h2>
         </Link>
         <div className="flex justify-center items-center gap-4">
-          <Link href="/teams" className="flex justify-center items-center">
+          <Link href="/details" className="flex justify-center items-center">
             <p>Our Mision</p>
           </Link>
           <Link href="/teams" className="flex justify-center items-center">
@@ -27,7 +27,7 @@ const Nav2 = () => {
           <Link href="/teams" className="flex justify-center items-center">
             <p>Parthners</p>
           </Link>
-          <Link href="/product" className="flex justify-center items-center gap-2">
+          <Link href="/" className="flex justify-center items-center gap-2">
             <p>Service</p>
             <BsChevronDown size={15} className="mt-1"/>
           </Link>
@@ -57,12 +57,12 @@ const Nav2 = () => {
       }>
         <div className="w-full h-full px-[25px]">
           <ul className="space-y-4 text-base my-6">
-            <li><Link href="/teams">Our Mision</Link></li>
+            <li><Link href="/details">Our Mision</Link></li>
             <li><Link href="/teams">Teams</Link></li>
             <li><Link href="/teams">Patners</Link></li>
             <li>
               <div className="flex justify-between items-center">
-                <Link href="product">Service</Link>
+                <Link href="/product">Service</Link>
                 <BsChevronDown size={15}/>
               </div>
             </li>
