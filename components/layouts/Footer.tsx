@@ -13,7 +13,7 @@ const foot2 = ["/teams"]
 const foot3 = ["/works"]
 const foot4 = ["/campaigns"]
 const foot5 = ["/donate"]
-const foot6 = ["/merch", "product"]
+const foot6 = ["/merch", "/product"]
 
 
 const Footer = () => {
@@ -33,6 +33,7 @@ const Footer = () => {
       {foot5.includes(pathname) && ( <Footer5/> )}
 
       {foot6.includes(pathname) && ( <Footer6/> )}
+
 
     </div>
   )
