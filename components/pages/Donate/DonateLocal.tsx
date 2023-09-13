@@ -16,10 +16,10 @@ const DonateLocal = () => {
         </p>
       </div>
 
-      <div className="flex sm:flex-row flex-col mt-[50px] gap-12">
+      <div className="flex justify-center items-center xl:flex-row flex-col mt-[50px] gap-12">
 
         <div className="flex flex-col sm:w-[405px] gap-6">
-          <div className="relative sm:w-[405px] sm:h-[240px] w-full h-[170px]">
+          <div className="relative xl:w-[405px] sm:h-[240px] w-full h-[170px]">
             <Image src="/images/PlaceHolder_3.png" alt="Icon" fill={true} />
           </div>
           <h1 className="sm:px-2 text-center font-black sm:text-3xl text-xl">
@@ -31,7 +31,7 @@ const DonateLocal = () => {
         </div>
 
         <div className="flex flex-col sm:w-[405px] gap-6">
-          <div className="relative sm:w-[405px] sm:h-[240px] w-full h-[170px]">
+          <div className="relative xl:w-[405px] sm:h-[240px] w-full h-[170px]">
             <Image src="/images/PlaceHolder_3.png" alt="Icon" fill={true} />
           </div>
           <h1 className="sm:px-2 text-center font-black sm:text-3xl text-xl">
@@ -44,7 +44,7 @@ const DonateLocal = () => {
         </div>
 
         <div className="flex flex-col sm:w-[405px] gap-6">
-          <div className="relative sm:w-[405px] sm:h-[240px] w-full h-[170px]">
+          <div className="relative xl:w-[405px] sm:h-[240px] w-full h-[170px]">
             <Image src="/images/PlaceHolder_3.png" alt="Icon" fill={true} />
           </div>
           <h1 className="px-2 text-center font-black sm:text-3xl text-xl">

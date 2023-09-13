@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const FindCampaign = () => {
   return(
-    <div className="flex sm:flex-row flex-col sm:justify-between sm:container sm:px-0 px-4 sm:mt-48 mt:mb-48 mt-28 mb-24">
+    <div className="flex xl:flex-row flex-col justify-center items-center md:justify-between xl:container xl:px-8 px-8  sm:mt-48 mt:mb-48 mt-28 mb-24">
       <div className="flex flex-col gap-6 sm:w-[616px] sm:h-[250px] w-full justify-center place-self-center">
         <h1 className="font-black sm:text-5xl text-3xl">
         Find a Campaign Near You

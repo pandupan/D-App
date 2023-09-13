@@ -2,7 +2,7 @@
 
 const MakeDiffTday = () => {
   return (
-    <div className="sm:container flex sm:flex-row flex-col sm:px-0 px-4 sm:justify-between sm:mt-48 sm:mb-48 mt-28 mb-24">
+    <div className="sm:container flex sm:flex-row flex-col sm:px-8 px-4 sm:justify-between sm:mt-48 sm:mb-48 mt-28 mb-24">
 
       <div className="flex flex-col gap-4">
         <h1 className="font-black sm:text-4xl text-3xl">Make a Difference Today</h1>
