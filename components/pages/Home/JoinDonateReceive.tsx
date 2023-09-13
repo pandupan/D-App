@@ -1,7 +1,7 @@
 import Image from "next/image"
 const JoinDonateReceive = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col sm:px-[84px] px-4 sm:my-0 my-28">
+    <div className="w-full min-h-screen flex flex-col sm:container sm:px-8 px-4 sm:my-0 my-28">
       <div className="lg:w-1/2 sm:mb-[75px] mb-[40px]">
         <h1 className="sm:text-4xl text-3xl font-bold tracking-normal">Join, Donate, and Receive Rewards on F-N-F Dapp</h1>
       </div>

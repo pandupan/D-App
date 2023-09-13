@@ -5,7 +5,7 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const MicroCrowdfunding = () => {
   return(
-    <div className="flex sm:flex-row flex-col sm:justify-between px-4 sm:px-0 sm:container sm:my-48 my-0">
+    <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 gap-4 mb-28">
       <div className="flex flex-col sm:gap-10 gap-4 sm:w-[600px] w-full mt-32">
         <BiSolidCube size = {70}/>
         <h1 className="font-black sm:text-5xl text-3xl ">
@@ -24,7 +24,7 @@ const MicroCrowdfunding = () => {
             </div>
         </div>
       </div>
-      <div className=" relative sm:w-[616px] sm:h-[640px] w-full h-[300px] items-center">
+      <div className=" relative aspect-square sm:w-[616px] sm:h-[640px] w-full h-[300px] items-center">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"

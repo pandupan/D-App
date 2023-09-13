@@ -10,7 +10,7 @@ import {
 
 const FAQ = () => {
   return (
-    <div className="w-full h-full sm:px-[84px] sm:mb-16 mt-28 px-4">
+    <div className="w-full h-full sm:container sm:px-8 sm:mb-16 mt-28 px-4">
       <div className="sm:space-y-10 space-y-6">
         <h1 className="sm:text-5xl text-3xl font-bold tracking-normal">FAQs</h1>
         <p className="sm:text-base text-sm">Find answers to common questions about the donation process.</p>

@@ -5,12 +5,12 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const EarnUnique = () => {
   return(
-    <div className="flex sm:flex-row flex-col sm:justify-between sm:container sm:my-48 px-4 sm:px-0">
+    <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 gap-4 mb-28">
       <div className="flex flex-col gap-10 mt-32">
-        <h1 className="font-black text-3xl w-full sm:w-[560px]">
+        <h1 className="font-black text-3xl w-full xl:w-[560px] sm:w-full lg:w-[300px]">
         Earn unique F-N-F NFTs by reaching donation milestones and supporting the community.
         </h1>
-        <p className="sm:w-[560px] w-full sm:text-base text-sm">
+        <p className="xl:w-[560px] sm:w-full lg:w-[300px] w-full sm:text-base text-sm">
         Contribute to micro crowdfunded campaigns and earn special F-N-F NFTs as you reach donation milestones. Support your community and make a difference.
         </p>
         <div className="flex flex-col gap-3 sm:text-base text-sm">
@@ -40,7 +40,7 @@ const EarnUnique = () => {
           </div>
         </div>
       </div>
-      <div className=" relative sm:w-[650px] sm:h-[650px] w-full h-[300px] sm:mt-0 mt-[40px]">
+      <div className=" relative aspect-square sm:w-[650px] sm:h-[650px] w-full h-[300px] sm:mt-0 mt-[40px]">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"
