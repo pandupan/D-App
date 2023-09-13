@@ -7,15 +7,15 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 const EarnNFTcom = () => {
   return(
     <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
-      <div className="flex flex-col gap-7 sm:w-[616px] sm:h-[640px] w-full justify-center">
+      <div className="flex flex-col gap-7 xl:w-[616px] xl:h-[640px] w-full justify-center">
       <div className="font-medium">Empower</div>
-        <h1 className="font-black sm:text-5xl text-3xl sm:w-full w-[250px]">
+        <h1 className="font-black sm:text-5xl text-3xl sm:w-full xl:w-full sm:w-[400px] w-[250px]">
         Earn F-N-F NFTs and Contribute to the Community
         </h1>
-        <p className="sm:text-base text-sm">
+        <p className="sm:text-base text-sm xl:w-full xl:w-full sm:w-full lg:w-[350px]">
         By reaching donation milestones and contributing to the community, you can earn exclusive F-N-F NFTs that showcase your support.
         </p>
-        <div className="flex sm:flex-row flex-col gap-4 mt-2">
+        <div className="flex  lg:flex-col xl:flex-row sm:flex-row flex-col gap-4 mt-2">
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-4">
               <h2 className="font-bold sm:text-lg text-md">

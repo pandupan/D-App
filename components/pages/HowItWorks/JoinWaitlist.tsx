@@ -6,16 +6,16 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const JoinWaitlist = () => {
   return(
-    <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
+    <div className="flex lg:flex-row lg:gap-0 sm:gap-10 flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
       <div className="flex flex-col gap-7 sm:w-[616px] sm:h-[640px] justify-center">
       <div className="font-bold">Empower</div>
-        <h1 className="font-black sm:text-5xl text-3xl">
+        <h1 className="font-black sm:text-5xl text-3xl xl:w-full sm:w-full lg:w-[340px]">
         Join the Waitlist and Make a Difference
         </h1>
-        <p className="sm:text-lg text-sm">
+        <p className="sm:text-lg text-sm xl:w-full xl:w-full sm:w-full lg:w-[350px]">
         Donate to your chosen campaign and join the waitlist for a chance to receive a USDC award. Every contribution counts!
         </p>
-        <div className="flex sm:flex-row flex-col gap-4 mt-2">
+        <div className="flex  lg:flex-col xl:flex-row sm:flex-row flex-col gap-4 mt-2">
           <div className="flex flex-col gap-4">
             <BiSolidCube size = {36}/>
             <div className="flex flex-col gap-4">

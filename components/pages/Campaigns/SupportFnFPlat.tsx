@@ -6,7 +6,7 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 const SupportFnFPlat= () => {
   return(
     <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
-      <div className="flex flex-col sm:gap-10 gap-6 sm:w-[600px] mt-32">
+      <div className="flex flex-col sm:gap-10 gap-6 lg:w-[600px] mt-32">
         <BiSolidCube size = {70}/>
         <h1 className="font-black sm:text-5xl text-3xl ">
         Support the F-N-F Platform with Exclusive Merchandise

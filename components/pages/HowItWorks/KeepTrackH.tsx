@@ -8,10 +8,10 @@ const KeepTrackH = () => {
     <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
       <div className="flex flex-col gap-6 mt-28">
       <div className="font-medium">Track</div>
-        <h1 className="font-black sm:text-5xl text-3xl sm:w-[616px]">
+        <h1 className="font-black sm:text-5xl text-3xl xl:w-[616px]">
         Keep Track of Your Donation History
         </h1>
-        <p className="sm:w-[560px] sm:text-based text-sm">
+        <p className="xl:w-[560px] sm:text-based text-sm">
         With our user dashboard, you can easily keep track of your donation history and personal achievements.
         </p>
         <div className="flex flex-col sm:text-base text-sm gap-5">

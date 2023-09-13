@@ -6,14 +6,14 @@ import {BiSolidCube} from 'react-icons/bi'
 const CZipCode = () => {
   return(
     <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8 md:mt-48 xl:mb-48 mb-28">
-      <div className="flex flex-col gap-6 sm:w-[616px] sm:h-[640px] w-full justify-center">
-        <h1 className="font-black sm:text-4xl text-2xl w-[270px] sm:w-full">
+      <div className="flex flex-col gap-6 lg:w-[616px] lg:h-[640px] justify-center">
+        <h1 className="font-black sm:text-4xl text-2xl w-[270px] xl:w-full sm:w-full lg:w-[320px]">
         Choose a Zip Code and Discover Micro-Crowdfunding Campaigns
         </h1>
-        <p className="sm:text-base text-xs sm:w-[550px] w-[250px]">
+        <p className="sm:text-base text-xs  w-[250px] sm:w-full lg:w-[300px] xl:w-[550px]">
         Explore a variety of micro-crowdfunding campaigns available in your chosen zip code, with donation amounts of $1, $5, and $10 in USDC stablecoin.
         </p>
-        <div className="flex sm:flex-row flex-col gap-4 mt-2">
+        <div className="flex  lg:flex-col xl:flex-row sm:flex-row flex-col gap-4 mt-2">
           <div className="flex flex-col gap-4">
             <BiSolidCube size = {36}/>
             <div className="flex flex-col gap-4">
@@ -38,7 +38,7 @@ const CZipCode = () => {
           </div>
         </div>
       </div>
-      <div className=" relative aspect-square sm:w-[656px] sm:h-[640px] sm:mt-0 mt-[40px]">
+      <div className=" relative aspect-square md:w-[656px] md:h-[640px] sm:mt-[20px] lg:mt-0 mt-[40px]">
         <Image 
           src="/images/PlaceHolder_2.png"
           alt="Placeholder"
