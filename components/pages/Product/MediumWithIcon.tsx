@@ -4,7 +4,7 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const MediumWithIcon = () => {
   return (
-    <div className="flex sm:flex-row flex-col sm:justify-between sm:container sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-20 mb-20">
+    <div className="flex lg:flex-row flex-col md:justify-between xl:container xl:px-8 px-8  sm:mt-48 sm:mb-48 mt-20 mb-20">
       <div className="flex flex-col sm:justify-center gap-10 sm:w-[600px] mt-6">
         <h1 className="font-black sm:text-5xl text-3xl">
         Long heading is what you see here in this feature section

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MediumWithImage = () => {
   return(
-    <div className="flex sm:flex-row flex-col sm:justify-between sm:container sm:px-0 px-4 sm:mt-48 sm:mb-48 mt-24 mb-24">
+    <div className="flex xl:flex-row flex-col md:justify-between xl:container xl:px-8 px-4 justify-center items-center sm:mt-48 sm:mb-48 mt-24 mb-24">
       <div className="flex flex-col sm:gap-6 gap-3 sm:w-[616px] sm:h-[250px] w-full justify-center place-self-center">
         <h1 className="font-black sm:text-5xl text-3xl">
         Medium length heading goes here
@@ -22,7 +22,7 @@ const MediumWithImage = () => {
         By clicking Sign Up you&apos;re confirming that you agree with our <span className="underline">Terms and Conditions.</span>
         </p>
       </div>
-      <div className=" relative sm:w-[616px] sm:h-[400px] w-full h-[218px] sm:mt-0 mt-[40px]">
+      <div className=" relative sm:w-[616px] sm:h-[400px] w-full h-[218px] sm:mt-10 xl:mt-0 mt-[40px]">
         <Image 
           src="/images/PlaceHolder_3.png"
           alt="Placeholder"

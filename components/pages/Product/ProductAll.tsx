@@ -4,7 +4,7 @@ import { IoBasketballOutline } from 'react-icons/io5'
 
 const ProductAll = () => {
   return (
-    <div className="sm:container flex flex-col sm:gap-10 sm:px-0 px-4 sm:mt-48 sm:mb-44 mt-28 mb-28">
+    <div className="sm:container flex flex-col sm:gap-10 sm:px-8 px-4 sm:mt-48 sm:mb-44 mt-28 mb-28">
       <div className="flex flex-col sm:gap-6 gap-3">
         <div className="font-bold">Tagline</div>
         <h1 className="font-black sm:text-5xl text-3xl">Products</h1>
@@ -18,7 +18,7 @@ const ProductAll = () => {
         </div>
       </div>
       <div className="flex justify-start">
-        <div className="mt-8 grid sm:grid-cols-4 grid-cols-2 grid-rows-2 sm:gap-20 gap-4">
+        <div className="mt-8 grid xl:grid-cols-4 sm:grid-cols-3 grid-cols-2 grid-rows-2 sm:gap-20 gap-4">
           <div>
             <div className=" relative sm:w-[304px] w-[137px] sm:h-[304px] h-[170px]">
               <Image
