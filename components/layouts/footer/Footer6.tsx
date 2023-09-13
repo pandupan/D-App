@@ -51,7 +51,7 @@ const Footer6 = () => {
           </div>
         </div>
       </div>
-      <div className="border-t-[2px] border-black sm:mt-20 mt-12 sm:container px-4 sm:px-16 sm:w-[1280px] w-[290px] "></div>
+      <div className="border-t-[2px] border-black w-[90%] mx-auto sm:mt-20 mt-12" />
       <div className="flex sm:container px-4 sm:px-16 sm:flex-row flex-col-reverse sm:justify-between gap-5  mt-8 sm:mb-28 mb-14">
         <h3 className="text-sm">
           © 2023 Example Company. All rights reserved.
