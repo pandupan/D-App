@@ -1,8 +1,5 @@
- 
-import Image from "next/image";
-import {BiSolidCube} from 'react-icons/bi'
-import ButtonOutline from "@/components/core/buttons/ButtonOutline";
-import ButtonPrimary from "@/components/core/buttons/ButtonPrimary";
+ import Image from "next/image";
+
 
 const EmpoweringCom = () => {
   return(
