@@ -7,7 +7,7 @@ import {BiLogoFacebook} from "react-icons/bi"
 
 const HightlightingTopZip = () => {
   return (
-    <div className="xl:container flex-col xl:px-0 px-4 xl:mt-48 xl:mb-48 mt-12 mb-28">
+    <div className="xl:container flex-col lg:px-8 px-4 md:mt-48 md:mb-48 mt-12 mb-28">
       <div className="flex flex-row gap-2">
         <div className="my-1 text-black">
           <AiOutlineLeft size={10} />

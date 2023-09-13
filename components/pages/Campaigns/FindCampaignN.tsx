@@ -4,7 +4,7 @@ import ButtonOutline from "@/components/core/buttons/ButtonOutline";
 
 const FindCampaignN = () => {
   return (
-    <div className="xl:container xl:mt-48 xl:mb-48 mt-32 mb-28 xl:px-0 px-4">
+    <div className="xl:container md:mt-48 md:mb-48 mt-32 mb-28 lg:px-8 px-4">
       <div className="flex flex-col sm:gap-6 gap-4">
         <p className="font-medium sm:text-base text-sm">Browse</p>
         <h1 className="font-bold sm:text-5xl text-3xl">Find Campaigns Near You</h1>

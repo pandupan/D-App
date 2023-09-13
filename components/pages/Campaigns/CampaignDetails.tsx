@@ -2,7 +2,7 @@ import Image from "next/image"
 import {BiSolidCube} from 'react-icons/bi'
 const CampaignDetails = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col xl:container xl:px-0 px-4 mt-28">
+    <div className="w-full min-h-screen flex flex-col lg:container lg:px-8 px-4 mt-28">
       <div className="mb-[50px]">
         <h1 className="sm:text-4xl text-3xl font-black tracking-normal sm:w-[768px]">
           Campaign Details: Information on each campaign, including goal amount, current funding, and time remaining.
