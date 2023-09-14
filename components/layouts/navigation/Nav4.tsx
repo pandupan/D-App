@@ -24,13 +24,35 @@ const Nav4 = () => {
           <div className="flex justify-center items-center">
             <p><Link href="/donate">Donate Now</Link></p>
           </div>
-          <Link href="/works" className="flex justify-center items-center">
-            <p>Join Waitinglist</p>
-          </Link>
-          <Link href="/" className="flex justify-center items-center gap-2">
-            <p>More Options</p>
-            <BsChevronDown size={15} className="mt-1"/>
-          </Link>
+          <div className="relative h-[72px] flex justify-center items-center group z-10">
+            <Link href="/works">
+              <p>Join Waiting List</p>
+            </Link>
+            <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4">
+              <Link href="/campaigns">
+                <div className="py-2 hover:text-blue-500">Zip Code Campaigns</div>
+              </Link>
+              <Link href="/details">
+                <div className="py-2 hover:text-blue-500 whitespace-nowrap">Campaign Details</div>
+              </Link>
+            </div>
+          </div>
+          <div className="relative h-[72px] flex justify-center items-center gap-2 group z-10">
+            <Link href="/">
+              <p>More Options</p>
+            </Link>
+            <div className="transform-gpu transition-transform group-hover:rotate-180">
+              <BsChevronDown size={15} className="mt-1" />
+            </div>
+            <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[200px] bg-white shadow-lg px-8 flex-col justify-center py-4">
+              <Link href="/product">
+                <div className="py-2 hover:text-blue-500">Shop</div>
+              </Link>
+              <Link href="/product">
+                <div className="py-2 hover:text-blue-500 whitespace-nowrap">Product</div>
+              </Link>
+            </div>
+          </div>
           <div className="flex justify-center items-center">
             <ButtonOutline title="Sign Up"/>
           </div>
@@ -41,7 +63,7 @@ const Nav4 = () => {
       </div>
 
       <div className="fixed flex justify-between items-center w-full h-[72px] md:hidden border-b border-black px-[25px] bg-white z-[90] ">
-        <div className="font-bold text-2xl">Logo</div>
+        <Link href="/" className="font-bold text-2xl">Logo</Link>
         {nav ? 
           <AiOutlineClose size={25} onClick={() => setNav(!nav)} />
         : <AiOutlineMenu size={25} onClick={() => setNav(!nav)} />
