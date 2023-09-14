@@ -16,11 +16,7 @@ const FeaturedMerch = () => {
         </p>
         <div className="flex flex-row gap-3">
             <ButtonOutline title = {"Shop"}/>        
-            <div className="flex my-auto">
-              Learn More
-            </div>
             <div className="flex mt-[10px]">
-            <BiSolidCube size = {22}/>
             </div>
         </div>
       </div>
