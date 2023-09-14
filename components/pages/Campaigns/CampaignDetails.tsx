@@ -1,17 +1,20 @@
 import Image from "next/image"
 import {BiSolidCube} from 'react-icons/bi'
 import ButtonOutline from "@/components/core/buttons/ButtonOutline"
+import Link from "next/link"
 const CampaignDetails = () => {
+
+
   return (
-    <div className="w-full min-h-screen flex flex-col lg:container lg:px-8 px-4 mt-28">
+    <div id="campaign" className="w-full min-h-screen flex flex-col lg:container lg:px-8 px-4 mt-28">
       <div className="mb-[50px]">
         <div className="flex lg:flex-row flex-col sm:justify-between">
         <h1 className="sm:text-4xl text-3xl font-black tracking-normal sm:w-[768px]">
           Campaign Details: Information on each campaign, including goal amount, current funding, and time remaining.
         </h1>
-          <div className="flex justify-end place-items-end sm:mt-0 mt-12 mb-12">
+          <Link href="#LocalZip" className="flex justify-end place-items-end sm:mt-0 mt-12 mb-12">
             <ButtonOutline title={"View All"}/>
-          </div>
+          </Link>
 
         </div>
         <div className="flex sm:flex-row flex-col sm:justify-center items-center w-full h-auto gap-4">
