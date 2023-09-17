@@ -60,14 +60,14 @@ const Footer6 = () => {
         </div>
       </div>
       <div className="border-t-[2px] border-black w-[90%] mx-auto sm:mt-20 mt-12" />
-      <div className="flex sm:container px-4 sm:px-16 sm:flex-row flex-col-reverse sm:justify-between gap-5  mt-8 sm:mb-28 mb-14">
-        <h3 className="text-sm">
+      <div className="flex justify-center sm:container px-4 sm:px-16 sm:flex-row flex-col-reverse sm:justify-between gap-5  mt-8 sm:mb-28 mb-14">
+        <h3 className="text-sm text-center sm:text-start">
           © 2023 Example Company. All rights reserved.
         </h3>
-        <div className="flex sm:flex-row flex-col mt-4 sm:mt-0 gap-4 text-sm underline underline-offset-3 sm:gap-10">
+        <div className="text-center sm:text-start flex sm:flex-row flex-col mt-4 sm:mt-0 gap-4 text-sm underline underline-offset-3 sm:gap-10">
           <h3>Privacy Policy</h3>
           <h3>Terms of Service</h3>
-          <h3>Cookies Settings</h3>
+          <h3>Cookie Policy</h3>
         </div>
       </div>
     </div>

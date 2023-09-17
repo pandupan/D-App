@@ -7,13 +7,15 @@ import Footer3 from "./footer/Footer3";
 import Footer4 from "./footer/Footer4";
 import Footer5 from "./footer/Footer5";
 import Footer6 from "./footer/Footer6";
+import Footer7 from "./footer/Footer7"
 
-const foot1 = ["/", "/details"]
+const foot1 = ["/"]
 const foot2 = ["/teams"]
 const foot3 = ["/works"]
 const foot4 = ["/campaigns"]
 const foot5 = ["/donate"]
 const foot6 = ["/merch", "/product"]
+const foot7 = ["/details"]
 
 
 const Footer = () => {
@@ -33,6 +35,8 @@ const Footer = () => {
       {foot5.includes(pathname) && ( <Footer5/> )}
 
       {foot6.includes(pathname) && ( <Footer6/> )}
+
+      {foot7.includes(pathname) && ( <Footer7/> )}
 
 
     </div>

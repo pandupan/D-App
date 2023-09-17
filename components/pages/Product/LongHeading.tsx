@@ -4,7 +4,6 @@ import { BiSolidCube } from 'react-icons/bi'
 const LongHeading = () => {
   return (
     <div className='flex flex-col sm:mt-48 container sm:px-0 px-4'>
-
     <div className="sm:w-full  sm:justify-between flex lg:flex-row flex-col sm:gap-32  px-0 sm:min-h-[50vh]">
       <h1 className="sm:w-[600px] font-black sm:text-4xl text-3xl sm:p-4">
         Long heading is what you see here in this feature section
