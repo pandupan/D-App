@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MediumWithImage = () => {
   return(
-    <div className="flex xl:flex-row flex-col md:justify-between xl:container xl:px-8 px-4 justify-center items-center sm:mt-48 sm:mb-48 mt-24 mb-24">
+    <div className="flex xl:flex-row flex-col md:justify-between xl:container xl:px-8 px-4 justify-center items-center sm:mt-20 sm:mb-48 mt-24 mb-24">
       <div className="flex flex-col sm:gap-6 gap-3 sm:w-[616px] sm:h-[250px] w-full justify-center place-self-center">
         <h1 className="font-black sm:text-5xl text-3xl">
         Medium length heading goes here

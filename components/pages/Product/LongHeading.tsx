@@ -25,13 +25,6 @@ const LongHeading = () => {
           </div>
         </div>
     </div>
-        <div className=" relative hidden items-center place-self-center sm:flex sm:w-full sm:h-[738px] w-full sm:mt-10 mt-[40px]">
-        <Image 
-          src="/images/PlaceHolder_3.png"
-          alt="Placeholder"
-          fill={true}
-          />
-      </div>
       <div className=" relative sm:hidden flex aspect-square sm:w-[650px] sm:h-[650px] sm:mt-0 mt-10">
         <Image 
           src="/images/PlaceHolder_2.png"

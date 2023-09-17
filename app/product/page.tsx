@@ -14,16 +14,16 @@ const page = () => {
   return (
     <div>
       <ShortHeading/>
+      <ProductAll/>
       <MediumHeading/>
       <MediumWithIcon/>
       <MediumWButton/>
       <MediumHeading/>
       <MediumWIconButton/>
       <LongHeading/>
-      <ProductAll/>
-      <PricingPlan/>
+      {/* <PricingPlan/> */}
       <MediumWithImage/>
-      <MediumWithButton/>
+      {/* <MediumWithButton/> */}
     </div>
   )
 }
