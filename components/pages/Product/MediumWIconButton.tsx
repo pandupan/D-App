@@ -16,12 +16,12 @@ const MediumWIconButton = () => {
           <div className="space-y-4 sm:w-[60%]">
             <BiSolidCube size={40}/>
             <h3 className="font-bold">Subheading one</h3>
-            <p className="sm:w-full sm:text-base text-sm xl:w-full sm:w-full lg:w-[320px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            <p className=" sm:text-base text-sm xl:w-full sm:w-full lg:w-[320px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
           </div>
           <div className="space-y-4 sm:w-[60%]">
             <BiSolidCube size={40}/>
             <h3 className="font-bold">Subheading two</h3>
-            <p className="sm:w-full sm:text-base text-sm xl:w-full sm:w-full lg:w-[320px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+            <p className=" sm:text-base text-sm xl:w-full sm:w-full lg:w-[320px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
           </div>
         </div>
         <div className="sm:flex hidden flex-row gap-3">

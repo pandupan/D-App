@@ -1,4 +1,4 @@
- 
+import Link from "next/link";
 import Image from "next/image";
 import {BiSolidCube} from 'react-icons/bi'
 import ButtonOutline from "@/components/core/buttons/ButtonOutline";
@@ -12,7 +12,7 @@ const JoinWaitlist = () => {
         <h1 className="font-black sm:text-5xl text-3xl xl:w-full sm:w-full lg:w-[340px]">
         Join the Waitlist and Make a Difference
         </h1>
-        <p className="sm:text-lg text-sm xl:w-full xl:w-full sm:w-full lg:w-[350px]">
+        <p className="sm:text-lg text-sm xl:w-full sm:w-full lg:w-[350px]">
         Donate to your chosen campaign and join the waitlist for a chance to receive a USDC award. Every contribution counts!
         </p>
         <div className="flex  lg:flex-col xl:flex-row sm:flex-row flex-col gap-4 mt-2">
@@ -39,14 +39,16 @@ const JoinWaitlist = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-3">
-            <ButtonOutline title = {"Donate"}/>        
-            <div className="flex my-auto">
-              Join
-            </div>
-            <div className="flex mt-[10px]">
-            <BiSolidCube size = {22}/>
-            </div>
+        <div className="flex flex-row md:justify-between gap-3">
+            <ButtonOutline title = {"Donate"}/>     
+            <a href="" className="flex flex-row gap-3 md:mr-60">
+              <div className="flex my-auto">
+                Join
+              </div>
+              <div className="flex mt-[10px]">
+              <BiSolidCube size = {22}/>
+              </div>
+            </a>   
         </div>
       </div>
       <div className=" relative aspect-square md:w-[616px] md:h-[640px] lg:mt-[20px] mt-[40px]">

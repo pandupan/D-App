@@ -1,4 +1,4 @@
- 
+import Link from "next/link";
 import Image from "next/image";
 import {BiSolidCube} from 'react-icons/bi'
 import ButtonOutline from "@/components/core/buttons/ButtonOutline";
@@ -41,13 +41,14 @@ const KeepTrackH = () => {
           </div>
         </div>
         <div className="flex flex-row gap-3 mt-3">
-            <ButtonOutline title = {"View"}/>        
+            <Link href="/campaigns#LocalZip" className="flex flex-row gap-3">
             <div className="flex my-auto">
               Learn More
             </div>
-            <div className="flex mt-[10px]">
+            <div className="flex mt-[4px]">
             <BiSolidCube size = {22}/>
             </div>
+            </Link>       
         </div>
       </div>
       <div className=" relative aspect-square md:w-[616px] md:h-[640px] lg:mt-[20px] mt-[40px]">
