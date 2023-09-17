@@ -5,7 +5,7 @@ import ButtonOutline from '@/components/core/buttons/ButtonOutline'
 
 const SupportLocalZipC = () => {
   return (
-    <div className="flex justify-start w-full sm:h-[421px] h-[354px]">
+    <div id="LocalZip" className="flex justify-start w-full sm:h-[421px] h-[354px]">
               <div className="relative w-full sm:h-[421px] h-[354px]">
                 <Image
                   src="/images/placeHolder_3.png"

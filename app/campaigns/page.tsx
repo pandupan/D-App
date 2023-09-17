@@ -6,6 +6,7 @@ import HightlightingTopZip from '@/components/pages/Campaigns/HightlightingTopZi
 import SupportFnFPlat from '@/components/pages/Campaigns/SupportFnFPlat'
 import SupportLocalZipC from '@/components/pages/Campaigns/SupportLocalZipC'
 import React from 'react'
+import { useRef } from 'react'
 
 const page = () => {
   return (

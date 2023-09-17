@@ -56,10 +56,10 @@ const Nav1 = () => {
             </div>
           </Link>
           <div className="flex justify-center items-center">
-            <ButtonOutline title="Button"/>
+            <ButtonOutline title="Sign Up"/>
           </div>
           <div className="flex justify-center items-center">
-            <ButtonPrimary title="Button"/>
+            <ButtonPrimary title="Login"/>
           </div>
         </div>
       </div>
