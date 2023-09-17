@@ -14,7 +14,7 @@ const Footer5 = () => {
         </div>
         <div className="flex sm:flex-row flex-col sm:justify-between justify-start">
           <div className="mt-8">
-            <h3 className="font-medium text-sm">Address:</h3>
+            {/* <h3 className="font-medium text-sm">Address:</h3>
             <p className="text-sm">Level 1, 12 Sample St, Sydney NSW 2000</p>
             <h3 className="font-medium text-sm mt-6">Contact:</h3>
             <p className="text-sm underline underline-offset-3">
@@ -30,11 +30,12 @@ const Footer5 = () => {
               <AiOutlineTwitter size={25} />
               <AiFillLinkedin size={25} />
               <BiLogoYoutube size={25} />
-            </div>
+            </div> */}
           </div>
 
           <div className="flex sm:flex-row flex-col gap-8 mt-10 sm:mt-0 sm:justify-between sm:gap-x-20 font-semibold sm:text-base text-sm sm:mr-16">
-            <div className="flex flex-col gap-y-3">
+            {/* old */}
+            {/* <div className="flex flex-col gap-y-3">
               <h2 className="">About Us</h2>
               <h2 className="">FAQs</h2>
               <h2 className="">Contact Us</h2>
@@ -47,6 +48,14 @@ const Footer5 = () => {
               <h2 className="">Careers</h2>
               <h2 className="">Press</h2>
               <h2 className="">Partners</h2>
+            </div> */}
+
+            {/* new */}
+            <div className="flex flex-col gap-y-3">
+              <h2 className="">Meet Team</h2>
+              <h2 className="">How it Works</h2>
+              <h2 className="">Donate</h2>
+              <h2 className="">Contact</h2>
             </div>
           </div>
         </div>

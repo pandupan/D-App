@@ -57,7 +57,7 @@ const DonateLocal = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center items-center gap-4 sm:mt-14 mt-8">
+      {/* <div className="flex flex-row justify-center items-center gap-4 sm:mt-14 mt-8">
         <ButtonOutline title={"Search"} />
         <div className="flex flex-row gap-2 place-self-center">
           Donate
@@ -65,7 +65,7 @@ const DonateLocal = () => {
             <BiSolidCube size={22} />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
