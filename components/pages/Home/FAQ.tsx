@@ -51,11 +51,11 @@ const FAQ = () => {
         </Accordion>
       </div>
 
-      <div className="space-y-6 sm:mt-16 mt-[40px]">
+      {/* <div className="space-y-6 sm:mt-16 mt-[40px]">
         <h2 className="sm:text-3xl text-2xl font-bold">Still have questions?</h2>
         <p>Contact us for further assistance</p>
         <ButtonOutline title="Contact"/>
-      </div>
+      </div> */}
     </div>
   )
 }

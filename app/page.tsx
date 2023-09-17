@@ -23,7 +23,7 @@ export default function Home() {
       <SupportLocal/>
       <StayInformed/>
       <FAQ/>
-      <ContactSupport/>
+      {/* <ContactSupport/> */}
     </>
   )
 }

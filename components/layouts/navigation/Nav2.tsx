@@ -37,22 +37,12 @@ const Nav2 = () => {
               </Link>
             </div>
           </div>
-          <div className="relative h-[72px] flex justify-center items-center gap-2 group">
-            <Link href="/product">
-              <p>Service</p>
-            </Link>
-            <div className="transform-gpu transition-transform group-hover:rotate-180">
+          <Link href="/merch">
+            <div className="h-[72px] flex-row flex justify-center items-center gap-2 group">
+              <p>Merchandise</p>
               <BsChevronDown size={15} className="mt-1" />
             </div>
-            <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[200px] bg-white shadow-lg px-8 flex-col justify-center py-4">
-              <Link href="/product">
-                <div className="py-2 hover:text-blue-500">Shop</div>
-              </Link>
-              <Link href="/product">
-                <div className="py-2 hover:text-blue-500 whitespace-nowrap">Product</div>
-              </Link>
-            </div>
-          </div>
+          </Link>
           <div className="flex justify-center items-center">
             <ButtonOutline title="Learn"/>
           </div>
