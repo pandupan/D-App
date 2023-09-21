@@ -49,7 +49,7 @@ const Footer1 = () => {
               <h2 className="">Sitemap</h2>
             </div> */}
             {/* new */}
-            <div className="flex flex-col gap-y-3 items-center">
+            <div className="flex flex-col gap-y-3 items-center sm:items-start">
               <h2 className="">Meet Team</h2>
               <h2 className="">How it Works</h2>
               <h2 className="">Donate</h2>
