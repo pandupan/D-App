@@ -24,10 +24,11 @@ const Nav7 = () => {
           <Link href="/works" className="flex justify-center items-center">
             <p>About Us</p>
           </Link>
-          <div className="relative h-[72px] flex justify-center items-center group">
+          <div className="relative h-[72px] flex justify-center items-center group gap-2">
             <Link href="/">
               <p>Contact</p>
             </Link>
+            <BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
             <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10">
               <Link href="/campaigns">
                 <div className="py-2 hover:text-blue-500">Zip Code Campaigns</div>
@@ -39,8 +40,7 @@ const Nav7 = () => {
           </div>
           <Link href="/product">
             <div className="h-[72px] flex-row flex justify-center items-center gap-2 group">
-              <p>Product</p>
-              <BsChevronDown size={15} className="mt-1" />
+              <p>Merchandise</p>
             {/* <div className="transform-gpu transition-transform group-hover:rotate-180">
             </div> */}
             {/* <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[200px] bg-white shadow-lg px-8 flex-col justify-center py-4">
@@ -83,8 +83,8 @@ const Nav7 = () => {
             <li><Link href="/works">About Us</Link></li>
             <li><Link href="/teams">Contact</Link></li>
             <li>
-              <Link href="/product" className="flex justify-between items-center">
-                Products
+              <Link href="/merch" className="flex justify-between items-center">
+                Merchandise
                 <BsChevronDown size={15}/>
               </Link>
             </li>

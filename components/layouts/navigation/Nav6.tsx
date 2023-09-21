@@ -25,8 +25,9 @@ const Nav5 = () => {
             <p><Link href="/donate">Donate</Link></p>
           </div>
           <div className="relative h-[72px] flex justify-center items-center group">
-            <Link href="/details">
+            <Link href="/details" className='flex gap-2'>
               <p>About Us</p>
+              <BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
             </Link>
             <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10">
               <Link href="/campaigns">
@@ -40,7 +41,6 @@ const Nav5 = () => {
           <Link href="/merch">
             <div className="h-[72px] flex-row flex justify-center items-center gap-2 group">
               <p>Merchandise</p>
-              <BsChevronDown size={15} className="mt-1" />
             </div>
           </Link>
           <div className="flex justify-center items-center">
@@ -73,8 +73,8 @@ const Nav5 = () => {
             <li><Link href="/donate">Donate</Link></li>
             <li><Link href="/works">About Us</Link></li>
             <li>
-              <Link href="/campaigns" className="flex justify-between items-center">
-                Campaigns
+              <Link href="/merch" className="flex justify-between items-center">
+                Merchandise
                 <BsChevronDown size={15}/>
               </Link>
             </li>

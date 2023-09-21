@@ -24,10 +24,11 @@ const Nav2 = () => {
           <Link href="/teams" className="flex justify-center items-center">
             <p>Teams</p>
           </Link>
-          <div className="relative h-[72px] flex justify-center items-center group">
+          <div className="relative h-[72px] flex justify-center items-center group gap-2">
             <Link href="/donate">
               <p>Donate</p>
             </Link>
+            <BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
             <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4">
               <Link href="/campaigns">
                 <div className="py-2 hover:text-blue-500">Zip Code Campaigns</div>
@@ -40,7 +41,7 @@ const Nav2 = () => {
           <Link href="/merch">
             <div className="h-[72px] flex-row flex justify-center items-center gap-2 group">
               <p>Merchandise</p>
-              <BsChevronDown size={15} className="mt-1" />
+              {/* <BsChevronDown size={15} className="mt-1" /> */}
             </div>
           </Link>
           <div className="flex justify-center items-center">
@@ -71,10 +72,10 @@ const Nav2 = () => {
           <ul className="space-y-4 text-base my-6">
             <li><Link href="/details">Our Mision</Link></li>
             <li><Link href="/teams">Teams</Link></li>
-            <li><Link href="/teams">Patners</Link></li>
+            <li><Link href="/donate">Donate</Link></li>
             <li>
               <div className="flex justify-between items-center">
-                <Link href="/product">Service</Link>
+                <Link href="/merch">Merchandise</Link>
                 <BsChevronDown size={15}/>
               </div>
             </li>

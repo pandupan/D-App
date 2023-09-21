@@ -22,12 +22,13 @@ const Nav4 = () => {
             <p><Link href="/campaigns">Explore Campaigns</Link></p>
           </div>
           <div className="flex justify-center items-center">
-            <p><Link href="/donate">Donate Now</Link></p>
-          </div>
-          <div className="relative h-[72px] flex justify-center items-center group z-10">
             <Link href="/works">
               <p>Join Waiting List</p>
             </Link>
+          </div>
+          <div className="relative h-[72px] flex justify-center items-center group z-10 gap-2">
+          <p><Link href="/donate">Donate Now</Link></p>
+            <BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
             <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4">
               <Link href="/campaigns">
                 <div className="py-2 hover:text-blue-500">Zip Code Campaigns</div>
@@ -42,7 +43,7 @@ const Nav4 = () => {
               <p>More Options</p>
             </Link>
             <div className="transform-gpu transition-transform group-hover:rotate-180">
-              <BsChevronDown size={15} className="mt-1" />
+<BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
             </div>
             <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[200px] bg-white shadow-lg px-8 flex-col justify-center py-4">
               <Link href="/product">
@@ -80,8 +81,8 @@ const Nav4 = () => {
         <div className="w-full h-full px-[25px]">
           <ul className="space-y-4 text-base my-6">
             <li><Link href="/campaigns">Explore Campaigns</Link></li>
-            <li><Link href="/details">Start a Campaigns</Link></li>
-            <li><Link href="/donate">Donate Noe</Link></li>
+            <li><Link href="/">Join Waiting List</Link></li>
+            <li><Link href="/donate">Donate Now</Link></li>
             <li>
               <Link href="/" className="flex justify-between items-center">
                 More Options

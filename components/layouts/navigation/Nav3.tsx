@@ -24,10 +24,11 @@ const Nav3 = () => {
           <Link href="/campaigns" className="flex justify-center items-center">
             <p>Start a Campaigns</p>
           </Link>
-          <div className="relative h-[72px] flex justify-center items-center group z-10">
+          <div className="relative h-[72px] flex justify-center items-center group z-10 gap-2">
             <Link href="/donate">
               <p>Donate</p>
             </Link>
+            <BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
             <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4">
               <Link href="/campaigns">
                 <div className="py-2 hover:text-blue-500">Zip Code Campaigns</div>
@@ -42,7 +43,7 @@ const Nav3 = () => {
               <p>More Options</p>
             </Link>
             <div className="transform-gpu transition-transform group-hover:rotate-180">
-              <BsChevronDown size={15} className="mt-1" />
+<BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
             </div>
             <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[200px] bg-white shadow-lg px-8 flex-col justify-center py-4">
               <Link href="/product">
@@ -80,11 +81,11 @@ const Nav3 = () => {
         <div className="w-full h-full px-[25px]">
           <ul className="space-y-4 text-base my-6">
             <li><Link href="/campaigns">Discover Campaigns</Link></li>
-            <li><Link href="/donate">Donate Now</Link></li>
-            <li><Link href="/works">Join Waitlist</Link></li>
+            <li><Link href="/campaigns">Start a Campaigns</Link></li>
+            <li><Link href="/donate">Donate</Link></li>
             <li>
               <div className="flex justify-between items-center">
-                <Link href="/details">Explore</Link>
+                <Link href="/">More Options</Link>
                 <BsChevronDown size={15}/>
               </div>
             </li>

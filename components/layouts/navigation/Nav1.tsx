@@ -26,10 +26,11 @@ const Nav1 = () => {
           <Link href="/works" className="flex justify-center items-center">
             <p>How it Works</p>
           </Link>
-          <div className="relative h-[72px] flex justify-center items-center group">
+          <div className="relative h-[72px] flex justify-center items-center group gap-2">
             <Link href="/donate">
               <p>Donate</p>
             </Link>
+              <BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
             <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4">
               <Link href="/campaigns">
                 <div className="py-2 hover:text-blue-500">Zip Code Campaigns</div>
@@ -42,7 +43,6 @@ const Nav1 = () => {
           <Link href="/merch">
             <div className="h-[72px] flex-row flex justify-center items-center gap-2 group">
               <p>Merchandise</p>
-              <BsChevronDown size={15} className="mt-1" />
             {/* <div className="transform-gpu transition-transform group-hover:rotate-180">
             </div> */}
             {/* <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[200px] bg-white shadow-lg px-8 flex-col justify-center py-4">
