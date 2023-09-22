@@ -31,7 +31,7 @@ const Nav1 = () => {
               <p>Donate</p>
             </Link>
               <BsChevronDown size={15} className="mt-1 transform-gpu transition-transform group-hover:rotate-180" />
-            <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4">
+            <div className="hidden group-hover:flex border border-black absolute top-[74px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10">
               <Link href="/campaigns">
                 <div className="py-2 hover:text-blue-500">Zip Code Campaigns</div>
               </Link>

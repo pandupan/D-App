@@ -9,7 +9,7 @@ import Nav5 from "./navigation/Nav5";
 import Nav6 from "./navigation/Nav6";
 import Nav7 from "./navigation/Nav7";
 
-const navbar1 = ["/", "/product"]
+const navbar1 = ["/", "/product","/teams", "/works", "/campaigns", "/details", "/donate", "/merch"]
 const navbar2 = ["/teams"]
 const navbar3 = ["/works"]
 const navbar4 = ["/campaigns"]
@@ -25,7 +25,7 @@ const Navbar = () => {
 
       {navbar1.includes(pathname) && ( <Nav1/> )}
 
-      {navbar2.includes(pathname) && ( <Nav2/> )}
+      {/* {navbar2.includes(pathname) && ( <Nav2/> )}
 
       {navbar3.includes(pathname) && ( <Nav3/> )}
 
@@ -35,7 +35,7 @@ const Navbar = () => {
 
       {navbar6.includes(pathname) && ( <Nav6/> )}
 
-      {navbar7.includes(pathname) && ( <Nav7/> )}
+      {navbar7.includes(pathname) && ( <Nav7/> )} */}
 
     </div>
   )
