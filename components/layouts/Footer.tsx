@@ -4,6 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BiLogoYoutube } from "react-icons/bi";
+import Link from "next/link";
 
 const Footer1 = () => {
   return (
@@ -50,10 +51,18 @@ const Footer1 = () => {
             </div> */}
             {/* new */}
             <div className="flex flex-col gap-y-3 items-center sm:items-start">
-              <h2 className="">Meet Team</h2>
-              <h2 className="">How it Works</h2>
-              <h2 className="">Donate</h2>
-              <h2 className="">Contact</h2>
+              <Link href="/campaings">
+                <h2 className="">Meet Team</h2>
+              </Link>
+              <Link href="/works">
+              </Link>
+                <h2 className="">How it Works</h2>
+              <Link href="/donate">
+                <h2 className="">Donate</h2>
+              </Link>
+              <Link href="/merch">
+                <h2 className="">Contact</h2> 
+              </Link>
             </div>
           </div>
         </div>

@@ -82,8 +82,8 @@ const Nav1 = () => {
         <div className="w-full h-full px-[25px]">
           <ul className="space-y-4 text-base my-6">
             <li><Link href="/campaigns">Meet Teams</Link></li>
-            <li><Link href="/donate">How it Works</Link></li>
-            <li><Link href="/works">Donate</Link></li>
+            <li><Link href="/works">How it Works</Link></li>
+            <li><Link href="/donate">Donate</Link></li>
             <li>
               <div className="flex justify-between items-center">
                 Merchaindise

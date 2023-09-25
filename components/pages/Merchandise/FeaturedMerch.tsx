@@ -2,6 +2,7 @@
 import Image from "next/image";
 import {BiSolidCube} from 'react-icons/bi'
 import ButtonOutline from "@/components/core/buttons/ButtonOutline";
+import Link from "next/link";
 
 const FeaturedMerch = () => {
   return(
@@ -15,7 +16,9 @@ const FeaturedMerch = () => {
         Discover our exclusive collection of F-N-F merchandise, including t-shirts, hats, coffee mugs, candles, hand soap, and home decor. Show your support for a great cause while looking stylish.
         </p>
         <div className="flex flex-row gap-3">
-            <ButtonOutline title = {"Shop"}/>        
+            <Link href="/merch">
+              <ButtonOutline title = {"Shop"}/> 
+            </Link>       
             <div className="flex mt-[10px]">
             </div>
         </div>
