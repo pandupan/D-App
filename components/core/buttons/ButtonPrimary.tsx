@@ -2,12 +2,13 @@ import { Button } from "@/components/ui/button"
 
 type propTypes = {
   title: string;
+  onClick?: () => void
 }
 
-const ButtonPrimary = ({title} : propTypes) => {
+const ButtonPrimary = ({title, onClick} : propTypes) => {
   return (
     <div>
-      <Button>{title}</Button>
+      <Button onClick={onClick}>{title}</Button>
     </div>
   )
 }

@@ -2,11 +2,12 @@ import { Button } from "@/components/ui/button"
 
 type propTypes = {
   title: string;
+  onClick?: () => void
 }
 
-const ButtonOutlineFull = ({ title } : propTypes) => {
+const ButtonOutlineFull = ({ title, onClick } : propTypes) => {
   return (
-      <Button className="w-[100%]" variant="outline">{title}</Button>
+      <Button className="w-[100%]" variant="outline" onClick={onClick}>{title}</Button>
   )
 } 
 
