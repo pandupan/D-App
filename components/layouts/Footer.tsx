@@ -51,12 +51,26 @@ const Footer1 = () => {
             </div> */}
             {/* new */}
             <div className="flex flex-col gap-y-3 items-center sm:items-start">
-              <Link href="/campaings">
+              <Link href="/">
+                <h2 className="">Join</h2>
+              </Link>
+              <Link href="/campaigns">
+                <h2 className="">Campaigns</h2>
+              </Link>
+              <Link href="/details">
+                <h2 className="">Support</h2>
+              </Link>
+              <Link href="/product">
+                <h2 className="">Product</h2> 
+              </Link>
+            </div>
+            <div className="flex flex-col gap-y-3 items-center sm:items-start">
+              <Link href="/teams">
                 <h2 className="">Meet Team</h2>
               </Link>
               <Link href="/works">
-              </Link>
                 <h2 className="">How it Works</h2>
+              </Link>
               <Link href="/donate">
                 <h2 className="">Donate</h2>
               </Link>
